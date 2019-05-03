@@ -5,10 +5,10 @@ from mtgsdk import Card
 g = Graph()
 node = BNode()
 cardClass = '/Card/'
-fileFormat = 'turtle'
-fileExt = '.txt'
-fileName = 'test'
-filePath = 'C:/Users/victor.c.tassinari/Desktop/'
+fileFormat = 'pretty-xml'
+fileExt = ''
+fileName = 'magic'
+filePath = '/home/victor/PycharmProjects/MagicXml/'
 
 def serializeXml():
     g.serialize(filePath+fileName+fileExt
@@ -45,4 +45,7 @@ def buildFile():
         g.add((newCard,DC.title,Literal(card.name)))
         g.add((newCard,DC.description,Literal(card.text)))
         g.add((newCard,RDFS.label,Literal('card')))
+
     serializeXml()
+
+buildFile()

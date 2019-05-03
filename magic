@@ -1,750 +1,758 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:magic="Magic/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="/Card/bebf5686-e043-5c98-bfcb-1cee9ea3a3e1">
-    <rdf:resource rdf:resource="Magic/card"/>
+  <rdf:Description rdf:about="/Card/f2d8870e-3ac7-550c-9f80-742b19735a38">
     <rdfs:label>card</rdfs:label>
-    <dc:title>Youthful Knight</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>First strike</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/57f9ac6c-6f0b-5a33-874d-8dcd0e69ae9e">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:title>Angel of Mercy</dc:title>
-    <dc:description>Flying
-When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c572eec2-fa01-52b7-a74b-dfca54d14a74">
-    <dc:title>Heart of Light</dc:title>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Prevent all damage that would be dealt to and dealt by enchanted creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1d7e9636-689a-51d9-abb6-ef2a308696ed">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
     <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Fisher dies, you may draw a card.</dc:description>
-    <dc:title>Aven Fisher</dc:title>
+Other black creatures get +1/+1.
+Nonblack creatures get -1/-1.</dc:description>
+    <dc:title>Ascendant Evincar</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/65d2997e-cb7c-5737-8902-929b85350db7">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)</dc:description>
+  <rdf:Description rdf:about="/Card/1f36fc8b-d32a-5683-9bfa-6f02f7fdba84">
     <rdfs:label>card</rdfs:label>
-    <dc:title>Field Marshal</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Bog Wraith</dc:title>
+    <dc:description>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/2bc85ce1-710d-54fc-a11a-7eaba757830b">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <dc:description>Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</dc:description>
+    <dc:title>Commune with Nature</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/64271d17-5b04-59d6-9725-18f9630076f9">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>Bloodrock Cyclops attacks each combat if able.</dc:description>
+    <dc:title>Bloodrock Cyclops</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/8f6bfe34-f704-5ac8-a025-921a0276bb54">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Prevent all damage that would be dealt to Cho-Manno, Revolutionary.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:title>Cho-Manno, Revolutionary</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/20590ae1-d37c-5f8d-830b-575b493d2ee2">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Creeping Mold</dc:title>
+    <dc:description>Destroy target artifact, enchantment, or land.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/2c4149b0-6f3f-5117-9a96-ad217397572b">
+    <dc:title>Bogardan Firefiend</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>When Bogardan Firefiend dies, it deals 2 damage to target creature.</dc:description>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/7a81542e-9153-5416-84f0-a45d01e2935d">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Cloud Sprite</dc:title>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+Cloud Sprite can block only creatures with flying.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/c462b4ea-8b7d-57f2-b014-f723165fcc6d">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Citanul Flute</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <dc:description>{X}, {T}: Search your library for a creature card with converted mana cost X or less, reveal it, and put it into your hand. Then shuffle your library.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/fcd5d3ab-d58e-5cea-861a-cb377f37bf83">
+    <dc:title>Ancestor's Chosen</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
+When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/15c434d4-a6a5-5567-a24f-42b0ab468e86">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Cone of Flame</dc:title>
+    <dc:description>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/8fb2ccd5-774d-5856-998e-6031e2a63c6a">
+    <dc:title>Angelic Blessing</dc:title>
+    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/df16eb18-b130-597d-b0b7-bdfdde32e86f">
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
+    <dc:description>If an opponent controls at least four more creatures than you, this spell costs {6} less to cast.
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</dc:description>
+    <dc:title>Avatar of Might</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/bac95ded-e0ed-55a9-881b-5787fb4d7e57">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)</dc:description>
+    <dc:title>Coat of Arms</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/a1901190-a766-5bf7-9dd7-9c1bdb0b4280">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Destroy target artifact or land.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Demolish</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/9c137f5d-27db-59fc-9284-29cd0a9eba4f">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>{T}: Add {C}.
+{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you.</dc:description>
+    <dc:title>Battlefield Forge</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/1c5f900e-982d-5c65-89fd-46dd4db76716">
+    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
+First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
+    <dc:title>Benalish Knight</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/8a309310-4300-586a-abab-cfaad6303e5c">
-    <dc:description>First strike, protection from black and from red (This creature deals combat damage before creatures without first strike. It can't be blocked, targeted, dealt damage, or enchanted by anything black or red.)</dc:description>
-    <rdfs:label>card</rdfs:label>
+  <rdf:Description rdf:about="/Card/fd9bed0d-36da-5ae0-b9cd-6ce7c302056e">
+    <dc:description>Enchant creature
+Enchanted creature gets +1/+1 for each Forest you control.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Paladin en-Vec</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/42aaadf2-42b0-5fde-8d25-d033e5897dc5">
-    <dc:description>Flying
-As Voice of All enters the battlefield, choose a color.
-Voice of All has protection from the chosen color.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Voice of All</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/915d9e0c-d36c-5039-9dfe-6cdace32dc3f">
-    <dc:description>Destroy all creatures. They can't be regenerated.</dc:description>
+    <dc:title>Blanchwood Armor</dc:title>
     <rdfs:label>card</rdfs:label>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Wrath of God</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/a4fbfdcd-7418-54a2-b40b-c1ae12e676d0">
-    <dc:description>{T}: Draw three cards.
-{2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.</dc:description>
+  <rdf:Description rdf:about="/Card/3bac81ad-efc0-510f-a34e-5aa495f32bb8">
     <rdf:resource rdf:resource="Magic/card"/>
     <dc:title>Arcanis the Omnipotent</dc:title>
-    <rdfs:label>card</rdfs:label>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/572db690-8c11-599e-b42c-8f5830ccfbd2">
-    <dc:title>Demystify</dc:title>
-    <dc:description>Destroy target enchantment.</dc:description>
     <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>{T}: Draw three cards.
+{2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.</dc:description>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/839734f2-4b21-5fb0-8a1c-2094b36aa9f4">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Whenever enchanted creature deals damage, you gain that much life.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Spirit Link</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7b98967f-0222-5733-9cdf-a4c0e30ba453">
-    <dc:title>Beacon of Immortality</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <dc:description>Double target player's life total. Shuffle Beacon of Immortality into its owner's library.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/563d3804-b6d3-5711-8f76-8c95a2812699">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
-When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Ancestor's Chosen</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2bdf95c1-8a07-5a85-bc39-e08e2d0ed058">
-    <dc:description>Whenever another creature enters the battlefield, you gain 1 life.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Soul Warden</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8e72c2bc-97bd-5282-ac25-b44f5fc97428">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Soldier creatures have vigilance.
-{2}{W}: Create a 1/1 white Soldier creature token.</dc:description>
-    <dc:title>Mobilization</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/70aaa5fe-d83a-5416-8c69-64ab38443706">
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Wall of Swords</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/66f465df-bbac-5147-82ad-69431ead7e79">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Enchant creature
-Enchanted creature gets +1/+2.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Holy Strength</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/25f3e8a7-9720-5649-9863-e9c7122ee928">
-    <dc:description>You gain 3 life.
-Draw a card.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Reviving Dose</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/bae37131-f69f-594c-a61a-0d8166a151a2">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Kjeldoran Royal Guard</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ade2bffe-ffbe-565b-bf3b-4347fd9278b3">
-    <dc:title>Angelic Chorus</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:description>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f370b8a1-60d5-534f-9136-799a52b537f8">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Suntail Hawk</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/52502f29-ae6a-57ff-87b6-20af67fd2edf">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying, vigilance (This creature can't be blocked except by creatures with flying or reach, and attacking doesn't cause this creature to tap.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Skyhunter Prowler</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/828f0024-fe94-5aec-be26-34d2936ecbf0">
-    <dc:title>Honor Guard</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>{W}: Honor Guard gets +0/+1 until end of turn.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/0a3062c6-d677-5055-96c9-368d7c20ff54">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>{W}, {T}: Put target Aura card from a graveyard onto the battlefield under your control attached to a creature you control.</dc:description>
-    <dc:title>Nomad Mythmaker</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ac107d20-ba75-5cb4-90d0-d73ede7f6b77">
-    <dc:description>Enchant creature
-Enchanted creature can't attack or block.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:title>Pacifism</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8eebf65c-ccc6-5e8b-9741-52d613eb6f93">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Aven Cloudchaser</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/52f14d52-6951-57c2-bb00-ca2ef90d8523">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Gain control of target Aura that's attached to a permanent. Attach it to another permanent it can enchant.</dc:description>
-    <dc:title>Aura Graft</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b697361a-b8ef-5aff-8dd9-0a3b09039c44">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>As Story Circle enters the battlefield, choose a color.
-{W}: The next time a source of your choice of the chosen color would deal damage to you this turn, prevent that damage.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Story Circle</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/290471b8-ef76-56dd-84b2-a682badcfc7f">
-    <dc:description>Flying</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Wild Griffin</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7d9a755a-31d9-5a92-ab56-fc83a957a264">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Wild Griffin</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/acbe3933-e19d-57f8-89f1-a5e0cece3ac8">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying, first strike (This creature can't be blocked except by creatures with flying or reach, and it deals combat damage before creatures without first strike.)</dc:description>
-    <dc:title>Skyhunter Patrol</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/db3c1081-f77c-5154-9a8a-bb631fb237db">
-    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
-First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <dc:title>Benalish Knight</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/42c17f81-8c17-5fae-b1be-b979cd5ade25">
-    <dc:title>Skyhunter Prowler</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying, vigilance (This creature can't be blocked except by creatures with flying or reach, and attacking doesn't cause this creature to tap.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1ee9fa4a-d1fc-5454-a8ce-3bdf7c5669ee">
-    <dc:description>{7}{W}: You gain 5 life.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:title>Starlight Invoker</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/670bb0df-43fd-5c87-9719-f8e2fc017897">
-    <dc:title>Angelic Blessing</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3b04715b-ae5e-50f8-aa8b-51b77d22b070">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Reya Dawnbringer</dc:title>
-    <dc:description>Flying
-At the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b844997e-15c2-5348-905d-16289cbebceb">
-    <dc:description>When Treasure Hunter enters the battlefield, you may return target artifact card from your graveyard to your hand.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Treasure Hunter</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4a3fcaf8-baa1-5933-9562-a2999fcb4a68">
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Prevent all damage that would be dealt to and dealt by enchanted creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Heart of Light</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ddb3229a-1934-5dc4-b6d9-16a6efbf5939">
-    <dc:title>Serra's Embrace</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Enchant creature
-Enchanted creature gets +2/+2 and has flying and vigilance.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f95970ec-28a8-5599-bb84-b97b9619c788">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+  <rdf:Description rdf:about="/Card/aeee62f6-3f05-581b-8d27-03bf0c215c30">
     <dc:description>Artifact and enchantment spells your opponents cast cost {2} more to cast.
 Sacrifice Aura of Silence: Destroy target artifact or enchantment.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
     <dc:title>Aura of Silence</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/c7db106b-0289-5b63-972c-c3ba494cb89c">
-    <dc:description>{T}: Target creature gets +1/+1 until end of turn.</dc:description>
+  <rdf:Description rdf:about="/Card/873ea568-3c77-59fd-8125-5da2de48f0d2">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Defender (This creature can't attack.)
+Flying</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Ghost Warden</dc:title>
+    <dc:title>Angelic Wall</dc:title>
     <rdfs:label>card</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/b41130a1-d19b-59ed-8882-98f4511decc5">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying, double strike</dc:description>
+  <rdf:Description rdf:about="/Card/84304c11-af1d-5cf1-9a19-b8c63def257a">
     <rdf:resource rdf:resource="Magic/card"/>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Skyhunter Skirmisher</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f0c2251a-47e2-5110-8bf9-528c7937bf59">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Enchant creature
-Enchanted creature gets +2/+2 and has flying and vigilance.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Serra's Embrace</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f7fd6328-6682-5d36-a3d1-ce373023ea68">
-    <dc:title>Icatian Priest</dc:title>
-    <dc:description>{1}{W}{W}: Target creature gets +1/+1 until end of turn.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/131bb7ad-6562-519a-8df4-2a8cc6cba5a8">
-    <dc:title>Paladin en-Vec</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>First strike, protection from black and from red (This creature deals combat damage before creatures without first strike. It can't be blocked, targeted, dealt damage, or enchanted by anything black or red.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a682994a-b70a-5c00-ac97-128fb58e403e">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Tundra Wolves</dc:title>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/5af25f21-1cff-58fa-b913-215285164d9e">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>True Believer</dc:title>
-    <dc:description>You have shroud. (You can't be the target of spells or abilities.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c483a408-93cc-5891-a6c0-0bf5e972f8c1">
-    <dc:title>Suntail Hawk</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7577c9e8-d560-5c63-b5ae-d61a5a05cd10">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>{W}, {T}: Put target Aura card from a graveyard onto the battlefield under your control attached to a creature you control.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Nomad Mythmaker</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/0cd143b7-de0e-5f6b-9cff-afaffd8e8770">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Soldier creatures have vigilance.
-{2}{W}: Create a 1/1 white Soldier creature token.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Mobilization</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3a4b6aa5-4d7a-5baf-928c-dabf5fc3d6a4">
-    <dc:description>Target blocking creature gets +7/+7 until end of turn.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Righteousness</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a3980a03-85a9-5262-bd5e-ecf963ee634a">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Prevent all damage that would be dealt to Cho-Manno, Revolutionary.</dc:description>
-    <dc:title>Cho-Manno, Revolutionary</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/fe7f4e52-f511-5e2c-b77f-b6d0c7d7d623">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Benalish Knight</dc:title>
-    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
-First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7c21e875-a76c-54dd-8472-6798159b8086">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Condemn</dc:title>
-    <dc:description>Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e26891ee-7185-55a8-b9e8-282178d7715a">
-    <dc:description>{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Ballista Squad</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a5e92747-eea8-5a64-a7cb-b5d50a2e45bc">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Enchant creature
-All damage that would be dealt to you is dealt to enchanted creature instead.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Pariah</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/29ab3c15-58fb-5748-a2fe-52edc6b85b53">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Vigilance (Attacking doesn't cause this creature to tap.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Steadfast Guard</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e7dff1cd-f378-5ec9-b2d1-7687c18fd74c">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Pariah</dc:title>
-    <dc:description>Enchant creature
-All damage that would be dealt to you is dealt to enchanted creature instead.</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e28a8231-e885-5f02-b12a-8d8fc6586510">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Destroy all enchantments.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Tempest of Light</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/cfb4af84-33e4-5eb3-9011-8f833daf7aa1">
-    <dc:description>Flying
-When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Angel of Mercy</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3b072bac-4508-5bfa-adc3-13a9163284d3">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Ancestor's Chosen</dc:title>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
-When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7de982fd-42d8-5e83-8e35-16ecbfb310c4">
-    <dc:title>Voice of All</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying
-As Voice of All enters the battlefield, choose a color.
-Voice of All has protection from the chosen color.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/093ba78c-28a9-53e3-9178-3b6b7147e900">
+    <dc:title>Arcane Teachings</dc:title>
     <rdfs:label>card</rdfs:label>
     <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Whenever enchanted creature deals damage, you gain that much life.</dc:description>
+Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any target."</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/cff007ed-d371-5591-9228-a3280de53075">
+    <dc:title>Angelic Wall</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Defender (This creature can't attack.)
+Flying</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Spirit Link</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/db6218d8-04ed-52c6-9ea9-2a3d763eaba1">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
+    <dc:title>Ascendant Evincar</dc:title>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+Other black creatures get +1/+1.
+Nonblack creatures get -1/-1.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ca1b29f4-9019-5ddc-95af-a5c900b67c58">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
+    <dc:title>Brushland</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>{T}: Add {C}.
+{T}: Add {G} or {W}. Brushland deals 1 damage to you.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/da832feb-02bb-5527-a7da-e149d7db9f1f">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Blaze</dc:title>
+    <dc:description>Blaze deals X damage to any target.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/02697237-10ec-58d6-a3eb-066fc5886f62">
-    <dc:description>{W}, {T}: Tap target creature.</dc:description>
-    <dc:title>Loxodon Mystic</dc:title>
     <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/228b69a1-ddae-575c-82d7-75912a6d1fe1">
+    <dc:title>Dehydration</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Enchanted creature doesn't untap during its controller's untap step.</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/58c4747e-54be-5dcf-a7a5-814a89f0a10e">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
+  <rdf:Description rdf:about="/Card/11732051-8f6e-59f4-b08e-71d6bb16b1f2">
+    <dc:description>{T}: Add {C}.
+{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you.</dc:description>
     <rdfs:label>card</rdfs:label>
+    <dc:title>Caves of Koilos</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/c0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9">
+    <dc:title>Aven Cloudchaser</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/de8ef420-862b-5b5c-a112-79c22cfdbceb">
+    <dc:title>Cancel</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>Counter target spell.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/047d5499-a21c-5f5c-9679-1599fcaf9815">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.</dc:description>
+    <dc:title>Academy Researchers</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/2854f284-974b-5842-8748-7c300e825b6c">
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
     <dc:title>Air Elemental</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/084f6bd4-5220-5057-b995-023717a8a244">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
     <rdfs:label>card</rdfs:label>
-    <dc:title>Aven Cloudchaser</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf">
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Sacrifice Composite Golem: Add {W}{U}{B}{R}{G}.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
+    <dc:title>Composite Golem</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/031a56f1-1554-5ad3-b889-afe198354b85">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owner's hand.</dc:description>
+    <dc:title>Cephalid Constable</dc:title>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/e5affb31-7153-5945-a062-f9c5b5c0014d">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Sacrifice Bottle Gnomes: You gain 3 life.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:title>Bottle Gnomes</dc:title>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/5e472972-de49-5bf8-b39c-edfdf7851976">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Search your library for a card and put that card into your hand. Then shuffle your library.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Diabolic Tutor</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/badd0cd9-52ce-5c07-b404-160f6f5b0de0">
+    <dc:title>Demon's Horn</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Whenever a player casts a black spell, you may gain 1 life.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any target."</dc:description>
+    <dc:title>Arcane Teachings</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/1b4a853d-b4c3-5440-bd30-4b51a8b2a0bc">
+  <rdf:Description rdf:about="/Card/13fbd62d-8c76-52fa-a91d-a20cc34747ab">
+    <dc:description>Look at target player's hand and choose two cards from it. Put them on top of that player's library in any order.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:title>Agonizing Memories</dc:title>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Serra Angel</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/baf4dd4c-bc49-5fa6-a119-ed59c0031be4">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Assassinate</dc:title>
+    <dc:description>Destroy target tapped creature.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/3637154c-6924-5072-bd32-36d1e32ee11a">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Canopy Spider</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <dc:description>Reach (This creature can block creatures with flying.)</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/522e6de3-4c31-5303-aba2-127c1e36a8d4">
+    <dc:description>{X}: Chimeric Staff becomes an X/X Construct artifact creature until end of turn.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:title>Chimeric Staff</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/908534a1-b3cd-5fad-b716-9a0e4a6d1d5f">
+    <dc:description>Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <dc:title>Coat of Arms</dc:title>
     <rdfs:label>card</rdfs:label>
-    <dc:description>Flying, vigilance</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/8a59b567-3815-5ce8-bb56-c263080d222f">
-    <dc:description>{2}: Target green or blue creature gets +0/+1 until end of turn.</dc:description>
+  <rdf:Description rdf:about="/Card/717d33e3-2344-519d-af37-3e216c46d3f4">
+    <dc:title>Canopy Spider</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:title>Spirit Weaver</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ee8cba4d-5299-5cbe-a83c-f8455df87f32">
-    <dc:title>Angelic Blessing</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/43d40853-da2d-522c-8d77-116d7916f496">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:title>Steadfast Guard</dc:title>
-    <dc:description>Vigilance (Attacking doesn't cause this creature to tap.)</dc:description>
+    <dc:description>Reach (This creature can block creatures with flying.)</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
     <rdfs:label>card</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/16d231c8-c729-5ab7-b6e0-0c4edce284f7">
-    <rdf:resource rdf:resource="Magic/card"/>
+  <rdf:Description rdf:about="/Card/f05509a3-b72c-5ceb-94e5-1f3c250db56b">
     <rdfs:label>card</rdfs:label>
-    <dc:title>True Believer</dc:title>
-    <dc:description>You have shroud. (You can't be the target of spells or abilities.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c4e9a0f8-c30c-5ea8-9118-cdc99991ffdc">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Skyhunter Skirmisher</dc:title>
-    <dc:description>Flying, double strike</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/6ad57922-fc13-5ac9-95a6-8ea811fc0516">
-    <dc:title>Pacifism</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
     <dc:description>Enchant creature
-Enchanted creature can't attack or block.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8eb5f91c-781d-562b-a71b-08f1b3cd8da0">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying
-Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.</dc:description>
-    <dc:title>Windborn Muse</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4a2415ba-5bcc-5c31-9744-ae69ab49596d">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>{3}: Target player puts the top three cards of their library into their graveyard.</dc:description>
-    <dc:title>Ambassador Laquatus</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b67a14a9-c8e5-54be-b98a-16892053d85e">
-    <dc:description>Each player can't cast more than one spell each turn.</dc:description>
+Enchanted creature gets +1/+1 for each Forest you control.</dc:description>
+    <dc:title>Blanchwood Armor</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Rule of Law</dc:title>
-    <rdfs:label>card</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/f758988d-edc9-5c1b-b607-80ab3d158be7">
-    <dc:title>Aven Fisher</dc:title>
+  <rdf:Description rdf:about="/Card/1669af17-d287-5094-b005-4b143441442f">
     <rdfs:label>card</rdfs:label>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Abundance</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/6648a8ec-91a2-57fb-82c5-e705d467b2ea">
+    <dc:title>Chromatic Star</dc:title>
+    <dc:description>{1}, {T}, Sacrifice Chromatic Star: Add one mana of any color.
+When Chromatic Star is put into a graveyard from the battlefield, draw a card.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/bef2dc94-74fe-5ea1-936e-acf3c8e5e169">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <dc:title>Angelic Chorus</dc:title>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ab49e18a-634e-55a4-8aff-8bdd4e5e4a57">
     <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
 When Aven Fisher dies, you may draw a card.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/cb01ef15-7fd0-5bca-9984-736be01f32af">
-    <dc:title>Field Marshal</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:title>Aven Fisher</dc:title>
     <rdf:resource rdf:resource="Magic/card"/>
     <rdfs:label>card</rdfs:label>
-    <dc:description>Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)</dc:description>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/eb300e01-fb05-59bd-ab5e-9e6c48e5880c">
-    <dc:description>When Loyal Sentry blocks a creature, destroy that creature and Loyal Sentry.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Loyal Sentry</dc:title>
+  <rdf:Description rdf:about="/Card/807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a">
+    <dc:title>Cloud Sprite</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8d1355fa-d89d-5015-9523-ad340184f248">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.</dc:description>
     <rdfs:label>card</rdfs:label>
-    <dc:title>Academy Researchers</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a4e63eed-61f5-57e5-a836-842cf559bcad">
     <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+Cloud Sprite can block only creatures with flying.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/1cc1e203-89d1-5d70-866d-48002aa268fa">
+    <dc:title>Dehydration</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Enchanted creature doesn't untap during its controller's untap step.</dc:description>
     <rdfs:label>card</rdfs:label>
-    <dc:title>Angelic Wall</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/4e875bca-0c52-5d60-889d-1db67e261737">
+    <rdf:resource rdf:resource="Magic/card"/>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3b684fed-27b0-5dc0-8297-0fd06a72783a">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Hail of Arrows</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c2fa1bd1-56bf-518e-bda1-6a1857569da0">
-    <dc:description>Creatures you control get +1/+1 until end of turn.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Warrior's Honor</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2749ac5b-1668-5e85-83c3-5b61d467eccf">
-    <dc:title>High Ground</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Each creature you control can block an additional creature each combat.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/64105f87-0173-5bcf-9043-005a066ad016">
-    <dc:description>Prevent all combat damage that would be dealt this turn.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Holy Day</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Target creature gets +1/+1 until end of turn.
+Draw a card.</dc:description>
+    <dc:title>Aggressive Urge</dc:title>
     <rdfs:label>card</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/f63be90f-341a-5a1f-b878-3857ccc774d5">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Tundra Wolves</dc:title>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
+  <rdf:Description rdf:about="/Card/c5393c68-2c74-523c-93a7-f4bd53f46faa">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Contaminated Bond</dc:title>
+    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Whenever enchanted creature attacks or blocks, its controller loses 3 life.</dc:description>
     <rdfs:label>card</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/33bbae9a-e828-5e38-ab48-432e4676ae85">
+  <rdf:Description rdf:about="/Card/4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748">
+    <dc:title>Aven Windreader</dc:title>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+{1}{U}: Target player reveals the top card of their library.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:title>Serra Angel</dc:title>
-    <dc:description>Flying, vigilance</dc:description>
     <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/420adb8e-6f24-58d5-b039-8fd0620e3f00">
+  <rdf:Description rdf:about="/Card/4b6294e9-28db-5e4a-9d5d-4d4aeff037a3">
+    <dc:description>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Bog Wraith</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/a634f6df-fd74-54d9-a56c-3fdd2ad3e9bf">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <dc:title>Bandage</dc:title>
     <dc:description>Prevent the next 1 damage that would be dealt to any target this turn.
 Draw a card.</dc:description>
     <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Bandage</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/b2916ac6-1c0c-5d4c-a23e-02fcbf1afe2f">
+  <rdf:Description rdf:about="/Card/43f8222f-3fd5-5491-9e76-5b1cc9a86e93">
     <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Double target player's life total. Shuffle Beacon of Immortality into its owner's library.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Beacon of Immortality</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73">
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Aven Cloudchaser</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying
-Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.</dc:description>
-    <dc:title>Windborn Muse</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/956ce3f8-32d2-5eb2-ac44-b2ac578d0ad3">
-    <dc:description>{T}: Prevent the next 1 damage that would be dealt to any target this turn.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Samite Healer</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
+  <rdf:Description rdf:about="/Card/bb865095-2690-5bee-a1ee-fd7d127acf28">
+    <dc:description>Return target permanent to its owner's hand.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/07568a11-555b-5e79-b5ac-4f5304606bfd">
-    <dc:description>When Venerable Monk enters the battlefield, you gain 2 life.</dc:description>
     <rdfs:label>card</rdfs:label>
-    <dc:title>Venerable Monk</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Boomerang</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/cf706172-38d6-53dc-a493-1eb19f027a66">
+    <dc:title>Angel's Feather</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <dc:description>Whenever a player casts a white spell, you may gain 1 life.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/d51f34a4-ce62-5003-94ec-86cdddea2d1c">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.</dc:description>
+    <dc:title>Beacon of Unrest</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8">
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Demystify</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <dc:description>Destroy target enchantment.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/50eac642-2fda-5f35-a5fc-6f6e10c3ee85">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Benalish Knight</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
+First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/a62ac877-9bb2-51b3-80e8-5768a52d0aa4">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Colossus of Sardia</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
+    <dc:description>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
+Colossus of Sardia doesn't untap during your untap step.
+{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/1aa697f8-b8d9-548e-92d2-427640efc113">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Draw two cards.</dc:description>
+    <dc:title>Counsel of the Soratami</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/127d8729-42a5-59cc-9255-d9f53d43a702">
+  <rdf:Description rdf:about="/Card/c5fdd729-0c3c-53b9-8741-d9023fca6dd7">
+    <dc:description>{T}: Target creature with power 2 or less can't be blocked this turn.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
     <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Holy Strength</dc:title>
-    <dc:description>Enchant creature
-Enchanted creature gets +1/+2.</dc:description>
+    <dc:title>Crafty Pathmage</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/f11a1230-b413-5d98-9436-cfa40c78ba2f">
+  <rdf:Description rdf:about="/Card/22cc2c35-c785-575c-b2d7-00477e7ec599">
+    <dc:title>Colossus of Sardia</dc:title>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Wall of Swords</dc:title>
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
+Colossus of Sardia doesn't untap during your untap step.
+{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ad41be73-582f-58ed-abd4-a88c1f616ac3">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
+When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
+    <dc:title>Ancestor's Chosen</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/42b053db-3d18-5e1a-b4c8-c39233ad9afe">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <dc:description>Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.</dc:description>
+    <dc:title>Condemn</dc:title>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/b20b6ef2-c8f9-5810-9b7f-af4e7d207fe7">
+    <dc:description>If an opponent controls at least four more creatures than you, this spell costs {6} less to cast.
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</dc:description>
+    <dc:title>Avatar of Might</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/c75ee39c-5afd-54c0-b2bf-be3d455373c2">
+    <dc:description>You may have Clone enter the battlefield as a copy of any creature on the battlefield.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
     <rdfs:label>card</rdfs:label>
+    <dc:title>Clone</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/e5d6f82f-3378-51f6-8d5f-df0bde157c07">
-    <dc:title>Air Elemental</dc:title>
+  <rdf:Description rdf:about="/Card/067159f1-c2be-5ed1-916b-e7645682c334">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
+    <dc:title>Anaba Bodyguard</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ada04e68-5bec-59bf-8474-7e87e82da1e8">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>None</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Craw Wurm</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/0498cd5a-75e9-5163-90e8-f8d15a97af59">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
+    <dc:description>When Denizen of the Deep enters the battlefield, return each other creature you control to its owner's hand.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Denizen of the Deep</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/908b390b-3047-518a-ad0b-bd06ff833676">
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.</dc:description>
+    <dc:title>Beacon of Destruction</dc:title>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/1d55c6de-11e7-5f58-ba99-0ffe403c0871">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
-    <dc:title>Angelic Wall</dc:title>
+  <rdf:Description rdf:about="/Card/b3bf8c54-da02-5028-b1ec-5485b4861e56">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Deluge</dc:title>
+    <dc:description>Tap all creatures without flying.</dc:description>
     <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/92c3945c-a134-5fad-933a-de53fb5d7c96">
+  <rdf:Description rdf:about="/Card/53438513-19d4-5bf1-90df-90fcbddbb60d">
+    <dc:title>Angelic Blessing</dc:title>
+    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
     <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Prevent all damage that black sources and red sources would deal this turn.</dc:description>
-    <dc:title>Luminesce</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/f93b46c8-188c-5066-a5fb-6435ccbf8a7e">
-    <dc:title>Skyhunter Patrol</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Flying, first strike (This creature can't be blocked except by creatures with flying or reach, and it deals combat damage before creatures without first strike.)</dc:description>
+  <rdf:Description rdf:about="/Card/f9db3498-1b48-5877-8cef-d07c65c6cc20">
     <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b2972616-5d7d-563b-afc9-919e8e5fa461">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Reya Dawnbringer</dc:title>
-    <dc:description>Flying
-At the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/30e697e6-283b-5484-8e0c-2cd7785b4751">
+    <dc:description>{3}: Target player puts the top three cards of their library into their graveyard.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Glorious Anthem</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Creatures you control get +1/+1.</dc:description>
+    <dc:title>Ambassador Laquatus</dc:title>
   </rdf:Description>
-  <rdf:Description rdf:about="/Card/230e9786-13f1-50d7-b06f-0763818a3f95">
+  <rdf:Description rdf:about="/Card/fe4aa077-872f-58b2-bc37-80164f869895">
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
+    <dc:title>Anaba Bodyguard</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/8774e18f-3752-5c06-af94-5da3960da9ed">
+    <dc:description>Target creature gets -1/-1 until end of turn.
+Draw a card.</dc:description>
+    <dc:title>Afflict</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/aea807be-9b29-53fa-9665-b00b62d5dced">
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+When Aven Fisher dies, you may draw a card.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Aven Fisher</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/e2be2630-ada5-57c7-8612-0356dfa75ce5">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Angel of Mercy</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Flying
+When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ac0bc104-7986-5eb4-b6c9-375120468c17">
+    <dc:description>Flying
+Cloud Elemental can block only creatures with flying.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Cloud Elemental</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ce2e3ad5-e130-503f-b646-08371c1cfec0">
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
+    <dc:description>{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.</dc:description>
+    <dc:title>Bloodfire Colossus</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/cd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e">
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
+{1}{U}: Target player reveals the top card of their library.</dc:description>
+    <dc:title>Aven Windreader</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/bfbb65b1-f1bb-5355-9495-fb094f9b0782">
+    <dc:description>{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Ballista Squad</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/a4624c81-a1de-565b-83f7-103af6b9ebde">
+    <dc:title>Crucible of Worlds</dc:title>
+    <dc:description>You may play land cards from your graveyard.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/a97410e8-c13c-562c-b296-73689d7007db">
+    <dc:title>Consume Spirit</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <dc:description>Spend only black mana on X.
+Consume Spirit deals X damage to any target and you gain X life.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/ee19938c-4007-58f1-8904-fae28007b422">
+    <dc:title>Adarkar Wastes</dc:title>
+    <dc:description>{T}: Add {C}.
+{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/fbfdbb8e-b391-5b89-9106-fa55b82828e4">
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:title>Cryoclasm</dc:title>
+    <dc:description>Destroy target Plains or Island. Cryoclasm deals 3 damage to that land's controller.</dc:description>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/7b94dbd6-ea37-5c4d-aa19-697deacca4f4">
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Cruel Edict</dc:title>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+    <dc:description>Target opponent sacrifices a creature.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/e0d8ae7a-f932-5b4b-b262-74ed78de4a7c">
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <dc:title>Contaminated Bond</dc:title>
+    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Whenever enchanted creature attacks or blocks, its controller loses 3 life.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/9d9ce25a-f48a-5b21-a672-8a08d42350e5">
+    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
+    <dc:title>Air Elemental</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/4107aaeb-a96c-54ce-8042-08aa27f1f72e">
+    <dc:title>Cloud Elemental</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <dc:description>Flying
+Cloud Elemental can block only creatures with flying.</dc:description>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c">
+    <dc:description>Flying
+When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
+    <dc:title>Angel of Mercy</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/38571b6a-82fb-5e9d-bd90-37cf94ab67ea">
+    <dc:description>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <dc:title>Civic Wayfinder</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/d4a710b1-8a0b-5ca1-ae78-6833762be626">
+    <dc:description>Gain control of target Aura that's attached to a permanent. Attach it to another permanent it can enchant.</dc:description>
     <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
     <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Youthful Knight</dc:title>
     <rdfs:label>card</rdfs:label>
-    <dc:description>First strike</dc:description>
+    <dc:title>Aura Graft</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/df15d202-901b-5a81-aa21-0e33f487838c">
+    <dc:title>Birds of Paradise</dc:title>
+    <rdfs:label>card</rdfs:label>
+    <dc:description>Flying
+{T}: Add one mana of any color.</dc:description>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <rdf:resource rdf:resource="Magic/card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/15d0f300-0989-5531-9eec-8a9b5320d822">
+    <dc:description>Destroy target green or white creature.</dc:description>
+    <rdf:resource rdf:resource="Magic/card"/>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <dc:title>Deathmark</dc:title>
+    <rdfs:label>card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="/Card/0c9b510b-6472-5339-bd6f-18cecc2e5482">
+    <dc:description>Flying
+{T}: Add one mana of any color.</dc:description>
+    <dc:title>Birds of Paradise</dc:title>
+    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
+    <rdfs:label>card</rdfs:label>
+    <rdf:resource rdf:resource="Magic/card"/>
   </rdf:Description>
   <rdfs:Class rdf:about="Magic/card">
     <rdf:Property>
@@ -759,8 +767,8 @@ At the beginning of your upkeep, you may return target creature card from your g
     </rdf:Property>
     <rdf:Property>
       <rdf:Property rdf:about="Magic/manaCost">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:domain rdf:resource="Magic/card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
       </rdf:Property>
     </rdf:Property>
   </rdfs:Class>
