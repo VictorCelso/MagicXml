@@ -4,32 +4,35 @@ from mtgsdk import Card
 
 g = Graph()
 node = BNode()
-cardClass = '/Card/'
-fileFormat = 'pretty-xml'
-fileExt = ''
-fileName = 'magic'
-filePath = '/home/victor/PycharmProjects/MagicXml/'
+fileFormat = 'txt'
+fileExt = '.txt'
+fileName = 'test'
+filePath = 'C:/Users/victor.c.tassinari/Desktop/'
 
 def serializeXml():
-    g.serialize(filePath+fileName+fileExt
-                ,format=fileFormat)
+    print(fileFormat)
+    if(fileFormat=="xml"):
+        g.serialize(filePath+fileName+'.xml'
+                    ,format='pretty-xml')
+    else:
+        g.serialize(filePath+fileName+'.n3'
+                    ,format='n3')
 
 def buildCardClass():
     g.bind('dc',DC)
+    g.bind("owl",OWL)
     global mtg
     mtg = Namespace('Magic/')
-    g.add((mtg.card,RDF.type,RDFS.Class))
-    g.add((mtg.card,RDF.Property,mtg.manaCost))
-    g.add((mtg.card,RDF.Property,DC.title))
-    g.add((mtg.card,RDF.Property,DC.description))
-    g.bind('magic',mtg)
-    g.add((mtg.manaCost,RDF.type,RDF.Property))
+    g.add((mtg.card,RDF.type,OWL.Class))
+    g.add((mtg.manaCost,OWL.ObjectProperty,mtg.card))
     g.add((mtg.manaCost,RDFS.domain,mtg.card))
-    g.add((mtg.manaCost,RDFS.range,XSD.double))
-    g.add((DC.title,RDFS.domain,mtg.card))
-    g.add((DC.description,RDFS.domain,mtg.card))
+    g.add((mtg.manaConvertion,OWL.ObjectProperty,mtg.card))
+    g.add((mtg.manaConvertion,RDFS.domain,mtg.card))
+    g.add((mtg.name,OWL.ObjectProperty,mtg.card))
+    g.add((mtg.name,RDFS.domain,mtg.card))
+    g.add((mtg.manaCost,OWL.ObjectProperty,mtg.card))
+    g.add((mtg.manaCost,RDFS.domain,mtg.card))
     
-
 def fetchCards(pageNum,size):
     global cards
     cards = Card.where(page=pageNum).where(pageSize=size).all()
@@ -38,14 +41,22 @@ def buildFile():
     buildCardClass()
     fetchCards(1,100)
     for card in cards:
-        cardId = cardClass+card.id
-        newCard = URIRef(cardId)
-        g.add((newCard,RDF.resource,mtg.card))
-        g.add((newCard,mtg.manaCost,Literal(card.cmc)))
-        g.add((newCard,DC.title,Literal(card.name)))
-        g.add((newCard,DC.description,Literal(card.text)))
-        g.add((newCard,RDFS.label,Literal('card')))
+        cardUri = mtg.mana+card.id
+        cardProperty = URIRef(cardUri)
+        g.add((cardProperty,RDF.type,OWL.Class))
+        g.add((cardProperty,RDFS.label,Literal(card.mana_cost)))
+        g.add((mtg.manaCost,RDFS.range,cardProperty))
+        cardUri = mtg.manaConverted+card.id
+        cardProperty = URIRef(cardUri)
+        g.add((cardProperty,RDF.type,OWL.Class))
+        g.add((cardProperty,RDFS.label,Literal(card.cmc)))
+        g.add((mtg.manaConvertion,RDFS.range,cardProperty))
+        cardUri = mtg.name+card.id
+        cardProperty = URIRef(cardUri)
+        g.add((cardProperty,RDF.type,OWL.Class))
+        g.add((cardProperty,RDFS.label,Literal(card.name)))
+        g.add((mtg.name,RDFS.range,cardProperty))
 
     serializeXml()
-
+        
 buildFile()
