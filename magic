@@ -1,775 +1,1220 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:magic="Magic/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="/Card/f2d8870e-3ac7-550c-9f80-742b19735a38">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Other black creatures get +1/+1.
-Nonblack creatures get -1/-1.</dc:description>
-    <dc:title>Ascendant Evincar</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1f36fc8b-d32a-5683-9bfa-6f02f7fdba84">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Bog Wraith</dc:title>
-    <dc:description>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2bc85ce1-710d-54fc-a11a-7eaba757830b">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</dc:description>
-    <dc:title>Commune with Nature</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/64271d17-5b04-59d6-9725-18f9630076f9">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Bloodrock Cyclops attacks each combat if able.</dc:description>
-    <dc:title>Bloodrock Cyclops</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8f6bfe34-f704-5ac8-a025-921a0276bb54">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Prevent all damage that would be dealt to Cho-Manno, Revolutionary.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Cho-Manno, Revolutionary</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/20590ae1-d37c-5f8d-830b-575b493d2ee2">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Creeping Mold</dc:title>
-    <dc:description>Destroy target artifact, enchantment, or land.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2c4149b0-6f3f-5117-9a96-ad217397572b">
-    <dc:title>Bogardan Firefiend</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>When Bogardan Firefiend dies, it deals 2 damage to target creature.</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7a81542e-9153-5416-84f0-a45d01e2935d">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Cloud Sprite</dc:title>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Cloud Sprite can block only creatures with flying.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c462b4ea-8b7d-57f2-b014-f723165fcc6d">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Citanul Flute</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:description>{X}, {T}: Search your library for a creature card with converted mana cost X or less, reveal it, and put it into your hand. Then shuffle your library.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/fcd5d3ab-d58e-5cea-861a-cb377f37bf83">
-    <dc:title>Ancestor's Chosen</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
-When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/15c434d4-a6a5-5567-a24f-42b0ab468e86">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Cone of Flame</dc:title>
-    <dc:description>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8fb2ccd5-774d-5856-998e-6031e2a63c6a">
-    <dc:title>Angelic Blessing</dc:title>
-    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/df16eb18-b130-597d-b0b7-bdfdde32e86f">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
-    <dc:description>If an opponent controls at least four more creatures than you, this spell costs {6} less to cast.
-Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</dc:description>
-    <dc:title>Avatar of Might</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/bac95ded-e0ed-55a9-881b-5787fb4d7e57">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)</dc:description>
-    <dc:title>Coat of Arms</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a1901190-a766-5bf7-9dd7-9c1bdb0b4280">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Destroy target artifact or land.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Demolish</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/9c137f5d-27db-59fc-9284-29cd0a9eba4f">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>{T}: Add {C}.
-{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you.</dc:description>
-    <dc:title>Battlefield Forge</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1c5f900e-982d-5c65-89fd-46dd4db76716">
-    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
-First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <dc:title>Benalish Knight</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/fd9bed0d-36da-5ae0-b9cd-6ce7c302056e">
-    <dc:description>Enchant creature
-Enchanted creature gets +1/+1 for each Forest you control.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Blanchwood Armor</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3bac81ad-efc0-510f-a34e-5aa495f32bb8">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Arcanis the Omnipotent</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>{T}: Draw three cards.
-{2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/aeee62f6-3f05-581b-8d27-03bf0c215c30">
-    <dc:description>Artifact and enchantment spells your opponents cast cost {2} more to cast.
-Sacrifice Aura of Silence: Destroy target artifact or enchantment.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Aura of Silence</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/873ea568-3c77-59fd-8125-5da2de48f0d2">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:title>Angelic Wall</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/84304c11-af1d-5cf1-9a19-b8c63def257a">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Arcane Teachings</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any target."</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/cff007ed-d371-5591-9228-a3280de53075">
-    <dc:title>Angelic Wall</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Defender (This creature can't attack.)
-Flying</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/db6218d8-04ed-52c6-9ea9-2a3d763eaba1">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <dc:title>Ascendant Evincar</dc:title>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Other black creatures get +1/+1.
-Nonblack creatures get -1/-1.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ca1b29f4-9019-5ddc-95af-a5c900b67c58">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
-    <dc:title>Brushland</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>{T}: Add {C}.
-{T}: Add {G} or {W}. Brushland deals 1 damage to you.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/da832feb-02bb-5527-a7da-e149d7db9f1f">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Blaze</dc:title>
-    <dc:description>Blaze deals X damage to any target.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/228b69a1-ddae-575c-82d7-75912a6d1fe1">
-    <dc:title>Dehydration</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Enchanted creature doesn't untap during its controller's untap step.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/11732051-8f6e-59f4-b08e-71d6bb16b1f2">
-    <dc:description>{T}: Add {C}.
-{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Caves of Koilos</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9">
-    <dc:title>Aven Cloudchaser</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/de8ef420-862b-5b5c-a112-79c22cfdbceb">
-    <dc:title>Cancel</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Counter target spell.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/047d5499-a21c-5f5c-9679-1599fcaf9815">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.</dc:description>
-    <dc:title>Academy Researchers</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2854f284-974b-5842-8748-7c300e825b6c">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:title>Air Elemental</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Sacrifice Composite Golem: Add {W}{U}{B}{R}{G}.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <dc:title>Composite Golem</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/031a56f1-1554-5ad3-b889-afe198354b85">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owner's hand.</dc:description>
-    <dc:title>Cephalid Constable</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e5affb31-7153-5945-a062-f9c5b5c0014d">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Sacrifice Bottle Gnomes: You gain 3 life.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Bottle Gnomes</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/5e472972-de49-5bf8-b39c-edfdf7851976">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Search your library for a card and put that card into your hand. Then shuffle your library.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Diabolic Tutor</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/badd0cd9-52ce-5c07-b404-160f6f5b0de0">
-    <dc:title>Demon's Horn</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Whenever a player casts a black spell, you may gain 1 life.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any target."</dc:description>
-    <dc:title>Arcane Teachings</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/13fbd62d-8c76-52fa-a91d-a20cc34747ab">
-    <dc:description>Look at target player's hand and choose two cards from it. Put them on top of that player's library in any order.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Agonizing Memories</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/baf4dd4c-bc49-5fa6-a119-ed59c0031be4">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Assassinate</dc:title>
-    <dc:description>Destroy target tapped creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/3637154c-6924-5072-bd32-36d1e32ee11a">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Canopy Spider</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Reach (This creature can block creatures with flying.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/522e6de3-4c31-5303-aba2-127c1e36a8d4">
-    <dc:description>{X}: Chimeric Staff becomes an X/X Construct artifact creature until end of turn.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Chimeric Staff</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/908534a1-b3cd-5fad-b716-9a0e4a6d1d5f">
-    <dc:description>Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:title>Coat of Arms</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/717d33e3-2344-519d-af37-3e216c46d3f4">
-    <dc:title>Canopy Spider</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Reach (This creature can block creatures with flying.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f05509a3-b72c-5ceb-94e5-1f3c250db56b">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Enchant creature
-Enchanted creature gets +1/+1 for each Forest you control.</dc:description>
-    <dc:title>Blanchwood Armor</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1669af17-d287-5094-b005-4b143441442f">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Abundance</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/6648a8ec-91a2-57fb-82c5-e705d467b2ea">
-    <dc:title>Chromatic Star</dc:title>
-    <dc:description>{1}, {T}, Sacrifice Chromatic Star: Add one mana of any color.
-When Chromatic Star is put into a graveyard from the battlefield, draw a card.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/bef2dc94-74fe-5ea1-936e-acf3c8e5e169">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <dc:title>Angelic Chorus</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ab49e18a-634e-55a4-8aff-8bdd4e5e4a57">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Fisher dies, you may draw a card.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:title>Aven Fisher</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a">
-    <dc:title>Cloud Sprite</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Cloud Sprite can block only creatures with flying.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1cc1e203-89d1-5d70-866d-48002aa268fa">
-    <dc:title>Dehydration</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Enchanted creature doesn't untap during its controller's untap step.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4e875bca-0c52-5d60-889d-1db67e261737">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Target creature gets +1/+1 until end of turn.
-Draw a card.</dc:description>
-    <dc:title>Aggressive Urge</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c5393c68-2c74-523c-93a7-f4bd53f46faa">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Contaminated Bond</dc:title>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Whenever enchanted creature attacks or blocks, its controller loses 3 life.</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748">
-    <dc:title>Aven Windreader</dc:title>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-{1}{U}: Target player reveals the top card of their library.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4b6294e9-28db-5e4a-9d5d-4d4aeff037a3">
-    <dc:description>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Bog Wraith</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a634f6df-fd74-54d9-a56c-3fdd2ad3e9bf">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Bandage</dc:title>
-    <dc:description>Prevent the next 1 damage that would be dealt to any target this turn.
-Draw a card.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/43f8222f-3fd5-5491-9e76-5b1cc9a86e93">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Double target player's life total. Shuffle Beacon of Immortality into its owner's library.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Beacon of Immortality</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Cloudchaser enters the battlefield, destroy target enchantment.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Aven Cloudchaser</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/bb865095-2690-5bee-a1ee-fd7d127acf28">
-    <dc:description>Return target permanent to its owner's hand.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Boomerang</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/cf706172-38d6-53dc-a493-1eb19f027a66">
-    <dc:title>Angel's Feather</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Whenever a player casts a white spell, you may gain 1 life.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/d51f34a4-ce62-5003-94ec-86cdddea2d1c">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.</dc:description>
-    <dc:title>Beacon of Unrest</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Demystify</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Destroy target enchantment.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/50eac642-2fda-5f35-a5fc-6f6e10c3ee85">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Benalish Knight</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Flash (You may cast this spell any time you could cast an instant.)
-First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a62ac877-9bb2-51b3-80e8-5768a52d0aa4">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Colossus of Sardia</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
-    <dc:description>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
-Colossus of Sardia doesn't untap during your untap step.
-{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/1aa697f8-b8d9-548e-92d2-427640efc113">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Draw two cards.</dc:description>
-    <dc:title>Counsel of the Soratami</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c5fdd729-0c3c-53b9-8741-d9023fca6dd7">
-    <dc:description>{T}: Target creature with power 2 or less can't be blocked this turn.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Crafty Pathmage</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/22cc2c35-c785-575c-b2d7-00477e7ec599">
-    <dc:title>Colossus of Sardia</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
-Colossus of Sardia doesn't untap during your untap step.
-{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ad41be73-582f-58ed-abd4-a88c1f616ac3">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)
-When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.</dc:description>
-    <dc:title>Ancestor's Chosen</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/42b053db-3d18-5e1a-b4c8-c39233ad9afe">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:description>Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.</dc:description>
-    <dc:title>Condemn</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b20b6ef2-c8f9-5810-9b7f-af4e7d207fe7">
-    <dc:description>If an opponent controls at least four more creatures than you, this spell costs {6} less to cast.
-Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</dc:description>
-    <dc:title>Avatar of Might</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/c75ee39c-5afd-54c0-b2bf-be3d455373c2">
-    <dc:description>You may have Clone enter the battlefield as a copy of any creature on the battlefield.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Clone</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/067159f1-c2be-5ed1-916b-e7645682c334">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <dc:title>Anaba Bodyguard</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ada04e68-5bec-59bf-8474-7e87e82da1e8">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>None</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Craw Wurm</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/0498cd5a-75e9-5163-90e8-f8d15a97af59">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
-    <dc:description>When Denizen of the Deep enters the battlefield, return each other creature you control to its owner's hand.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Denizen of the Deep</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/908b390b-3047-518a-ad0b-bd06ff833676">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.</dc:description>
-    <dc:title>Beacon of Destruction</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/b3bf8c54-da02-5028-b1ec-5485b4861e56">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Deluge</dc:title>
-    <dc:description>Tap all creatures without flying.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/53438513-19d4-5bf1-90df-90fcbddbb60d">
-    <dc:title>Angelic Blessing</dc:title>
-    <dc:description>Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/f9db3498-1b48-5877-8cef-d07c65c6cc20">
-    <rdfs:label>card</rdfs:label>
-    <dc:description>{3}: Target player puts the top three cards of their library into their graveyard.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Ambassador Laquatus</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/fe4aa077-872f-58b2-bc37-80164f869895">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <dc:description>First strike (This creature deals combat damage before creatures without first strike.)</dc:description>
-    <dc:title>Anaba Bodyguard</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/8774e18f-3752-5c06-af94-5da3960da9ed">
-    <dc:description>Target creature gets -1/-1 until end of turn.
-Draw a card.</dc:description>
-    <dc:title>Afflict</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/aea807be-9b29-53fa-9665-b00b62d5dced">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Fisher dies, you may draw a card.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Aven Fisher</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e2be2630-ada5-57c7-8612-0356dfa75ce5">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Angel of Mercy</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying
-When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ac0bc104-7986-5eb4-b6c9-375120468c17">
-    <dc:description>Flying
-Cloud Elemental can block only creatures with flying.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Cloud Elemental</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ce2e3ad5-e130-503f-b646-08371c1cfec0">
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</magic:manaCost>
-    <dc:description>{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.</dc:description>
-    <dc:title>Bloodfire Colossus</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/cd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e">
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)
-{1}{U}: Target player reveals the top card of their library.</dc:description>
-    <dc:title>Aven Windreader</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/bfbb65b1-f1bb-5355-9495-fb094f9b0782">
-    <dc:description>{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Ballista Squad</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a4624c81-a1de-565b-83f7-103af6b9ebde">
-    <dc:title>Crucible of Worlds</dc:title>
-    <dc:description>You may play land cards from your graveyard.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/a97410e8-c13c-562c-b296-73689d7007db">
-    <dc:title>Consume Spirit</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Spend only black mana on X.
-Consume Spirit deals X damage to any target and you gain X life.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/ee19938c-4007-58f1-8904-fae28007b422">
-    <dc:title>Adarkar Wastes</dc:title>
-    <dc:description>{T}: Add {C}.
-{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/fbfdbb8e-b391-5b89-9106-fa55b82828e4">
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:title>Cryoclasm</dc:title>
-    <dc:description>Destroy target Plains or Island. Cryoclasm deals 3 damage to that land's controller.</dc:description>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/7b94dbd6-ea37-5c4d-aa19-697deacca4f4">
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Cruel Edict</dc:title>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <dc:description>Target opponent sacrifices a creature.</dc:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/e0d8ae7a-f932-5b4b-b262-74ed78de4a7c">
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <dc:title>Contaminated Bond</dc:title>
-    <dc:description>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Whenever enchanted creature attacks or blocks, its controller loses 3 life.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/9d9ce25a-f48a-5b21-a672-8a08d42350e5">
-    <dc:description>Flying (This creature can't be blocked except by creatures with flying or reach.)</dc:description>
-    <dc:title>Air Elemental</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/4107aaeb-a96c-54ce-8042-08aa27f1f72e">
-    <dc:title>Cloud Elemental</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <dc:description>Flying
-Cloud Elemental can block only creatures with flying.</dc:description>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c">
-    <dc:description>Flying
-When Angel of Mercy enters the battlefield, you gain 3 life.</dc:description>
-    <dc:title>Angel of Mercy</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/38571b6a-82fb-5e9d-bd90-37cf94ab67ea">
-    <dc:description>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Civic Wayfinder</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/d4a710b1-8a0b-5ca1-ae78-6833762be626">
-    <dc:description>Gain control of target Aura that's attached to a permanent. Attach it to another permanent it can enchant.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <rdfs:label>card</rdfs:label>
-    <dc:title>Aura Graft</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/df15d202-901b-5a81-aa21-0e33f487838c">
-    <dc:title>Birds of Paradise</dc:title>
-    <rdfs:label>card</rdfs:label>
-    <dc:description>Flying
-{T}: Add one mana of any color.</dc:description>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/15d0f300-0989-5531-9eec-8a9b5320d822">
-    <dc:description>Destroy target green or white creature.</dc:description>
-    <rdf:resource rdf:resource="Magic/card"/>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <dc:title>Deathmark</dc:title>
-    <rdfs:label>card</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="/Card/0c9b510b-6472-5339-bd6f-18cecc2e5482">
-    <dc:description>Flying
-{T}: Add one mana of any color.</dc:description>
-    <dc:title>Birds of Paradise</dc:title>
-    <magic:manaCost rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</magic:manaCost>
-    <rdfs:label>card</rdfs:label>
-    <rdf:resource rdf:resource="Magic/card"/>
-  </rdf:Description>
-  <rdfs:Class rdf:about="Magic/card">
-    <rdf:Property>
-      <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
-        <rdfs:domain rdf:resource="Magic/card"/>
-      </rdf:Description>
-    </rdf:Property>
-    <rdf:Property>
-      <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
-        <rdfs:domain rdf:resource="Magic/card"/>
-      </rdf:Description>
-    </rdf:Property>
-    <rdf:Property>
-      <rdf:Property rdf:about="Magic/manaCost">
-        <rdfs:domain rdf:resource="Magic/card"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-      </rdf:Property>
-    </rdf:Property>
-  </rdfs:Class>
+  <rdf:Description rdf:about="Magic/name">
+    <rdfs:range rdf:resource="Magic/name64271d17-5b04-59d6-9725-18f9630076f9"/>
+    <rdfs:range rdf:resource="Magic/name2c4149b0-6f3f-5117-9a96-ad217397572b"/>
+    <rdfs:range rdf:resource="Magic/name047d5499-a21c-5f5c-9679-1599fcaf9815"/>
+    <rdfs:range rdf:resource="Magic/namee5affb31-7153-5945-a062-f9c5b5c0014d"/>
+    <rdfs:range rdf:resource="Magic/name7b94dbd6-ea37-5c4d-aa19-697deacca4f4"/>
+    <rdfs:range rdf:resource="Magic/name15c434d4-a6a5-5567-a24f-42b0ab468e86"/>
+    <rdfs:range rdf:resource="Magic/name7a81542e-9153-5416-84f0-a45d01e2935d"/>
+    <rdfs:range rdf:resource="Magic/name1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf"/>
+    <rdfs:range rdf:resource="Magic/namea4624c81-a1de-565b-83f7-103af6b9ebde"/>
+    <rdfs:range rdf:resource="Magic/nameaeee62f6-3f05-581b-8d27-03bf0c215c30"/>
+    <rdfs:range rdf:resource="Magic/name3bac81ad-efc0-510f-a34e-5aa495f32bb8"/>
+    <rdfs:range rdf:resource="Magic/namec5393c68-2c74-523c-93a7-f4bd53f46faa"/>
+    <rdfs:range rdf:resource="Magic/name9c137f5d-27db-59fc-9284-29cd0a9eba4f"/>
+    <rdfs:range rdf:resource="Magic/namec5fdd729-0c3c-53b9-8741-d9023fca6dd7"/>
+    <rdfs:range rdf:resource="Magic/name50eac642-2fda-5f35-a5fc-6f6e10c3ee85"/>
+    <rdfs:range rdf:resource="Magic/namef2d8870e-3ac7-550c-9f80-742b19735a38"/>
+    <owl:ObjectProperty rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/name3637154c-6924-5072-bd32-36d1e32ee11a"/>
+    <rdfs:range rdf:resource="Magic/name53438513-19d4-5bf1-90df-90fcbddbb60d"/>
+    <rdfs:range rdf:resource="Magic/namebfbb65b1-f1bb-5355-9495-fb094f9b0782"/>
+    <rdfs:range rdf:resource="Magic/namebb865095-2690-5bee-a1ee-fd7d127acf28"/>
+    <rdfs:range rdf:resource="Magic/name4e875bca-0c52-5d60-889d-1db67e261737"/>
+    <rdfs:range rdf:resource="Magic/name9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c"/>
+    <rdfs:range rdf:resource="Magic/name1669af17-d287-5094-b005-4b143441442f"/>
+    <rdfs:range rdf:resource="Magic/namefbfdbb8e-b391-5b89-9106-fa55b82828e4"/>
+    <rdfs:range rdf:resource="Magic/name11732051-8f6e-59f4-b08e-71d6bb16b1f2"/>
+    <rdfs:range rdf:resource="Magic/name8fb2ccd5-774d-5856-998e-6031e2a63c6a"/>
+    <rdfs:range rdf:resource="Magic/namec75ee39c-5afd-54c0-b2bf-be3d455373c2"/>
+    <rdfs:range rdf:resource="Magic/name15d0f300-0989-5531-9eec-8a9b5320d822"/>
+    <rdfs:range rdf:resource="Magic/name717d33e3-2344-519d-af37-3e216c46d3f4"/>
+    <rdfs:range rdf:resource="Magic/name522e6de3-4c31-5303-aba2-127c1e36a8d4"/>
+    <rdfs:range rdf:resource="Magic/name228b69a1-ddae-575c-82d7-75912a6d1fe1"/>
+    <rdfs:range rdf:resource="Magic/nameada04e68-5bec-59bf-8474-7e87e82da1e8"/>
+    <rdfs:range rdf:resource="Magic/namedb6218d8-04ed-52c6-9ea9-2a3d763eaba1"/>
+    <rdfs:range rdf:resource="Magic/name22cc2c35-c785-575c-b2d7-00477e7ec599"/>
+    <rdfs:range rdf:resource="Magic/name60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8"/>
+    <rdfs:range rdf:resource="Magic/namee2be2630-ada5-57c7-8612-0356dfa75ce5"/>
+    <rdfs:range rdf:resource="Magic/name0498cd5a-75e9-5163-90e8-f8d15a97af59"/>
+    <rdfs:range rdf:resource="Magic/namece2e3ad5-e130-503f-b646-08371c1cfec0"/>
+    <rdfs:range rdf:resource="Magic/nameab49e18a-634e-55a4-8aff-8bdd4e5e4a57"/>
+    <rdfs:range rdf:resource="Magic/name4107aaeb-a96c-54ce-8042-08aa27f1f72e"/>
+    <rdfs:range rdf:resource="Magic/namef9db3498-1b48-5877-8cef-d07c65c6cc20"/>
+    <rdfs:range rdf:resource="Magic/name1f36fc8b-d32a-5683-9bfa-6f02f7fdba84"/>
+    <rdfs:range rdf:resource="Magic/name8774e18f-3752-5c06-af94-5da3960da9ed"/>
+    <rdfs:range rdf:resource="Magic/name2854f284-974b-5842-8748-7c300e825b6c"/>
+    <rdfs:range rdf:resource="Magic/name4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748"/>
+    <rdfs:range rdf:resource="Magic/name908b390b-3047-518a-ad0b-bd06ff833676"/>
+    <rdfs:range rdf:resource="Magic/name4b6294e9-28db-5e4a-9d5d-4d4aeff037a3"/>
+    <rdfs:range rdf:resource="Magic/name6648a8ec-91a2-57fb-82c5-e705d467b2ea"/>
+    <rdfs:range rdf:resource="Magic/namee0d8ae7a-f932-5b4b-b262-74ed78de4a7c"/>
+    <rdfs:range rdf:resource="Magic/name7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273"/>
+    <rdfs:range rdf:resource="Magic/namefd9bed0d-36da-5ae0-b9cd-6ce7c302056e"/>
+    <rdfs:range rdf:resource="Magic/namecd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e"/>
+    <rdfs:range rdf:resource="Magic/name9d9ce25a-f48a-5b21-a672-8a08d42350e5"/>
+    <rdfs:range rdf:resource="Magic/name84304c11-af1d-5cf1-9a19-b8c63def257a"/>
+    <rdfs:range rdf:resource="Magic/nameee19938c-4007-58f1-8904-fae28007b422"/>
+    <rdfs:range rdf:resource="Magic/namefcd5d3ab-d58e-5cea-861a-cb377f37bf83"/>
+    <rdfs:range rdf:resource="Magic/name20590ae1-d37c-5f8d-830b-575b493d2ee2"/>
+    <rdfs:range rdf:resource="Magic/name43f8222f-3fd5-5491-9e76-5b1cc9a86e93"/>
+    <rdfs:range rdf:resource="Magic/name2bc85ce1-710d-54fc-a11a-7eaba757830b"/>
+    <rdfs:range rdf:resource="Magic/namec462b4ea-8b7d-57f2-b014-f723165fcc6d"/>
+    <rdfs:range rdf:resource="Magic/name5e472972-de49-5bf8-b39c-edfdf7851976"/>
+    <rdfs:range rdf:resource="Magic/nameb3bf8c54-da02-5028-b1ec-5485b4861e56"/>
+    <rdfs:range rdf:resource="Magic/namea1901190-a766-5bf7-9dd7-9c1bdb0b4280"/>
+    <rdfs:range rdf:resource="Magic/nameb20b6ef2-c8f9-5810-9b7f-af4e7d207fe7"/>
+    <rdfs:range rdf:resource="Magic/nameac0bc104-7986-5eb4-b6c9-375120468c17"/>
+    <rdfs:range rdf:resource="Magic/nameca1b29f4-9019-5ddc-95af-a5c900b67c58"/>
+    <rdfs:range rdf:resource="Magic/name908534a1-b3cd-5fad-b716-9a0e4a6d1d5f"/>
+    <rdfs:range rdf:resource="Magic/namefe4aa077-872f-58b2-bc37-80164f869895"/>
+    <rdfs:range rdf:resource="Magic/namead41be73-582f-58ed-abd4-a88c1f616ac3"/>
+    <rdfs:range rdf:resource="Magic/name8f6bfe34-f704-5ac8-a025-921a0276bb54"/>
+    <rdfs:domain rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/namebaf4dd4c-bc49-5fa6-a119-ed59c0031be4"/>
+    <rdfs:range rdf:resource="Magic/name0c9b510b-6472-5339-bd6f-18cecc2e5482"/>
+    <rdfs:range rdf:resource="Magic/name031a56f1-1554-5ad3-b889-afe198354b85"/>
+    <rdfs:range rdf:resource="Magic/name1cc1e203-89d1-5d70-866d-48002aa268fa"/>
+    <rdfs:range rdf:resource="Magic/namec0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9"/>
+    <rdfs:range rdf:resource="Magic/namecf706172-38d6-53dc-a493-1eb19f027a66"/>
+    <rdfs:range rdf:resource="Magic/name38571b6a-82fb-5e9d-bd90-37cf94ab67ea"/>
+    <rdfs:range rdf:resource="Magic/namebef2dc94-74fe-5ea1-936e-acf3c8e5e169"/>
+    <rdfs:range rdf:resource="Magic/namedf15d202-901b-5a81-aa21-0e33f487838c"/>
+    <rdfs:range rdf:resource="Magic/namebadd0cd9-52ce-5c07-b404-160f6f5b0de0"/>
+    <rdfs:range rdf:resource="Magic/namea634f6df-fd74-54d9-a56c-3fdd2ad3e9bf"/>
+    <rdfs:range rdf:resource="Magic/namef05509a3-b72c-5ceb-94e5-1f3c250db56b"/>
+    <rdfs:range rdf:resource="Magic/name873ea568-3c77-59fd-8125-5da2de48f0d2"/>
+    <rdfs:range rdf:resource="Magic/name807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a"/>
+    <rdfs:range rdf:resource="Magic/nameda832feb-02bb-5527-a7da-e149d7db9f1f"/>
+    <rdfs:range rdf:resource="Magic/namede8ef420-862b-5b5c-a112-79c22cfdbceb"/>
+    <rdfs:range rdf:resource="Magic/name2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73"/>
+    <rdfs:range rdf:resource="Magic/namea97410e8-c13c-562c-b296-73689d7007db"/>
+    <rdfs:range rdf:resource="Magic/name067159f1-c2be-5ed1-916b-e7645682c334"/>
+    <rdfs:range rdf:resource="Magic/nameaea807be-9b29-53fa-9665-b00b62d5dced"/>
+    <rdfs:range rdf:resource="Magic/namea62ac877-9bb2-51b3-80e8-5768a52d0aa4"/>
+    <rdfs:range rdf:resource="Magic/name42b053db-3d18-5e1a-b4c8-c39233ad9afe"/>
+    <rdfs:range rdf:resource="Magic/named4a710b1-8a0b-5ca1-ae78-6833762be626"/>
+    <rdfs:range rdf:resource="Magic/namedf16eb18-b130-597d-b0b7-bdfdde32e86f"/>
+    <rdfs:range rdf:resource="Magic/name1c5f900e-982d-5c65-89fd-46dd4db76716"/>
+    <rdfs:range rdf:resource="Magic/named51f34a4-ce62-5003-94ec-86cdddea2d1c"/>
+    <rdfs:range rdf:resource="Magic/name13fbd62d-8c76-52fa-a91d-a20cc34747ab"/>
+    <rdfs:range rdf:resource="Magic/namecff007ed-d371-5591-9228-a3280de53075"/>
+    <rdfs:range rdf:resource="Magic/namebac95ded-e0ed-55a9-881b-5787fb4d7e57"/>
+    <rdfs:range rdf:resource="Magic/name1aa697f8-b8d9-548e-92d2-427640efc113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Magic/manaConvertion">
+    <rdfs:range rdf:resource="Magic/manaConverteda97410e8-c13c-562c-b296-73689d7007db"/>
+    <rdfs:range rdf:resource="Magic/manaConverteddf16eb18-b130-597d-b0b7-bdfdde32e86f"/>
+    <rdfs:range rdf:resource="Magic/manaConverteddb6218d8-04ed-52c6-9ea9-2a3d763eaba1"/>
+    <rdfs:range rdf:resource="Magic/manaConverted50eac642-2fda-5f35-a5fc-6f6e10c3ee85"/>
+    <rdfs:range rdf:resource="Magic/manaConverted84304c11-af1d-5cf1-9a19-b8c63def257a"/>
+    <rdfs:range rdf:resource="Magic/manaConverted13fbd62d-8c76-52fa-a91d-a20cc34747ab"/>
+    <rdfs:range rdf:resource="Magic/manaConverted031a56f1-1554-5ad3-b889-afe198354b85"/>
+    <owl:ObjectProperty rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedcd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedb3bf8c54-da02-5028-b1ec-5485b4861e56"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedc0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedf05509a3-b72c-5ceb-94e5-1f3c250db56b"/>
+    <rdfs:range rdf:resource="Magic/manaConverted0498cd5a-75e9-5163-90e8-f8d15a97af59"/>
+    <rdfs:range rdf:resource="Magic/manaConverted717d33e3-2344-519d-af37-3e216c46d3f4"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedcf706172-38d6-53dc-a493-1eb19f027a66"/>
+    <rdfs:range rdf:resource="Magic/manaConverted60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedf2d8870e-3ac7-550c-9f80-742b19735a38"/>
+    <rdfs:range rdf:resource="Magic/manaConverted2854f284-974b-5842-8748-7c300e825b6c"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbadd0cd9-52ce-5c07-b404-160f6f5b0de0"/>
+    <rdfs:range rdf:resource="Magic/manaConvertede5affb31-7153-5945-a062-f9c5b5c0014d"/>
+    <rdfs:range rdf:resource="Magic/manaConverted522e6de3-4c31-5303-aba2-127c1e36a8d4"/>
+    <rdfs:range rdf:resource="Magic/manaConverted9d9ce25a-f48a-5b21-a672-8a08d42350e5"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1f36fc8b-d32a-5683-9bfa-6f02f7fdba84"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1669af17-d287-5094-b005-4b143441442f"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbfbb65b1-f1bb-5355-9495-fb094f9b0782"/>
+    <rdfs:range rdf:resource="Magic/manaConverted64271d17-5b04-59d6-9725-18f9630076f9"/>
+    <rdfs:range rdf:resource="Magic/manaConverted53438513-19d4-5bf1-90df-90fcbddbb60d"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1c5f900e-982d-5c65-89fd-46dd4db76716"/>
+    <rdfs:range rdf:resource="Magic/manaConverted2bc85ce1-710d-54fc-a11a-7eaba757830b"/>
+    <rdfs:range rdf:resource="Magic/manaConverted3637154c-6924-5072-bd32-36d1e32ee11a"/>
+    <rdfs:range rdf:resource="Magic/manaConverted8f6bfe34-f704-5ac8-a025-921a0276bb54"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbb865095-2690-5bee-a1ee-fd7d127acf28"/>
+    <rdfs:range rdf:resource="Magic/manaConverteda62ac877-9bb2-51b3-80e8-5768a52d0aa4"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1cc1e203-89d1-5d70-866d-48002aa268fa"/>
+    <rdfs:range rdf:resource="Magic/manaConverted8774e18f-3752-5c06-af94-5da3960da9ed"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedfcd5d3ab-d58e-5cea-861a-cb377f37bf83"/>
+    <rdfs:range rdf:resource="Magic/manaConverted43f8222f-3fd5-5491-9e76-5b1cc9a86e93"/>
+    <rdfs:range rdf:resource="Magic/manaConverted9c137f5d-27db-59fc-9284-29cd0a9eba4f"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedc462b4ea-8b7d-57f2-b014-f723165fcc6d"/>
+    <rdfs:range rdf:resource="Magic/manaConverted15c434d4-a6a5-5567-a24f-42b0ab468e86"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedac0bc104-7986-5eb4-b6c9-375120468c17"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedca1b29f4-9019-5ddc-95af-a5c900b67c58"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1aa697f8-b8d9-548e-92d2-427640efc113"/>
+    <rdfs:range rdf:resource="Magic/manaConverted6648a8ec-91a2-57fb-82c5-e705d467b2ea"/>
+    <rdfs:range rdf:resource="Magic/manaConverteda634f6df-fd74-54d9-a56c-3fdd2ad3e9bf"/>
+    <rdfs:range rdf:resource="Magic/manaConverted2c4149b0-6f3f-5117-9a96-ad217397572b"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedad41be73-582f-58ed-abd4-a88c1f616ac3"/>
+    <rdfs:range rdf:resource="Magic/manaConverted2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73"/>
+    <rdfs:range rdf:resource="Magic/manaConverted4107aaeb-a96c-54ce-8042-08aa27f1f72e"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedc75ee39c-5afd-54c0-b2bf-be3d455373c2"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedda832feb-02bb-5527-a7da-e149d7db9f1f"/>
+    <rdfs:range rdf:resource="Magic/manaConverted067159f1-c2be-5ed1-916b-e7645682c334"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedcff007ed-d371-5591-9228-a3280de53075"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedab49e18a-634e-55a4-8aff-8bdd4e5e4a57"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedfd9bed0d-36da-5ae0-b9cd-6ce7c302056e"/>
+    <rdfs:range rdf:resource="Magic/manaConverted9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedc5fdd729-0c3c-53b9-8741-d9023fca6dd7"/>
+    <rdfs:range rdf:resource="Magic/manaConverted4e875bca-0c52-5d60-889d-1db67e261737"/>
+    <rdfs:range rdf:resource="Magic/manaConverted5e472972-de49-5bf8-b39c-edfdf7851976"/>
+    <rdfs:range rdf:resource="Magic/manaConverted7b94dbd6-ea37-5c4d-aa19-697deacca4f4"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedee19938c-4007-58f1-8904-fae28007b422"/>
+    <rdfs:range rdf:resource="Magic/manaConverted8fb2ccd5-774d-5856-998e-6031e2a63c6a"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedaea807be-9b29-53fa-9665-b00b62d5dced"/>
+    <rdfs:range rdf:resource="Magic/manaConverteda1901190-a766-5bf7-9dd7-9c1bdb0b4280"/>
+    <rdfs:range rdf:resource="Magic/manaConverted4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748"/>
+    <rdfs:range rdf:resource="Magic/manaConverted22cc2c35-c785-575c-b2d7-00477e7ec599"/>
+    <rdfs:range rdf:resource="Magic/manaConverted11732051-8f6e-59f4-b08e-71d6bb16b1f2"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbaf4dd4c-bc49-5fa6-a119-ed59c0031be4"/>
+    <rdfs:range rdf:resource="Magic/manaConverted38571b6a-82fb-5e9d-bd90-37cf94ab67ea"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbac95ded-e0ed-55a9-881b-5787fb4d7e57"/>
+    <rdfs:range rdf:resource="Magic/manaConverted228b69a1-ddae-575c-82d7-75912a6d1fe1"/>
+    <rdfs:range rdf:resource="Magic/manaConverted873ea568-3c77-59fd-8125-5da2de48f0d2"/>
+    <rdfs:range rdf:resource="Magic/manaConverteda4624c81-a1de-565b-83f7-103af6b9ebde"/>
+    <rdfs:range rdf:resource="Magic/manaConverted42b053db-3d18-5e1a-b4c8-c39233ad9afe"/>
+    <rdfs:range rdf:resource="Magic/manaConverted047d5499-a21c-5f5c-9679-1599fcaf9815"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedbef2dc94-74fe-5ea1-936e-acf3c8e5e169"/>
+    <rdfs:range rdf:resource="Magic/manaConverted3bac81ad-efc0-510f-a34e-5aa495f32bb8"/>
+    <rdfs:range rdf:resource="Magic/manaConvertede2be2630-ada5-57c7-8612-0356dfa75ce5"/>
+    <rdfs:range rdf:resource="Magic/manaConverted7a81542e-9153-5416-84f0-a45d01e2935d"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedb20b6ef2-c8f9-5810-9b7f-af4e7d207fe7"/>
+    <rdfs:range rdf:resource="Magic/manaConverted807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a"/>
+    <rdfs:range rdf:resource="Magic/manaConverted908b390b-3047-518a-ad0b-bd06ff833676"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedf9db3498-1b48-5877-8cef-d07c65c6cc20"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedd51f34a4-ce62-5003-94ec-86cdddea2d1c"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedfe4aa077-872f-58b2-bc37-80164f869895"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedada04e68-5bec-59bf-8474-7e87e82da1e8"/>
+    <rdfs:range rdf:resource="Magic/manaConverted0c9b510b-6472-5339-bd6f-18cecc2e5482"/>
+    <rdfs:range rdf:resource="Magic/manaConverteddf15d202-901b-5a81-aa21-0e33f487838c"/>
+    <rdfs:range rdf:resource="Magic/manaConverted908534a1-b3cd-5fad-b716-9a0e4a6d1d5f"/>
+    <rdfs:domain rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/manaConverted1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf"/>
+    <rdfs:range rdf:resource="Magic/manaConverted7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedde8ef420-862b-5b5c-a112-79c22cfdbceb"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedd4a710b1-8a0b-5ca1-ae78-6833762be626"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedfbfdbb8e-b391-5b89-9106-fa55b82828e4"/>
+    <rdfs:range rdf:resource="Magic/manaConverted4b6294e9-28db-5e4a-9d5d-4d4aeff037a3"/>
+    <rdfs:range rdf:resource="Magic/manaConverted20590ae1-d37c-5f8d-830b-575b493d2ee2"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedaeee62f6-3f05-581b-8d27-03bf0c215c30"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedc5393c68-2c74-523c-93a7-f4bd53f46faa"/>
+    <rdfs:range rdf:resource="Magic/manaConvertedce2e3ad5-e130-503f-b646-08371c1cfec0"/>
+    <rdfs:range rdf:resource="Magic/manaConvertede0d8ae7a-f932-5b4b-b262-74ed78de4a7c"/>
+    <rdfs:range rdf:resource="Magic/manaConverted15d0f300-0989-5531-9eec-8a9b5320d822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Magic/manaCost">
+    <rdfs:range rdf:resource="Magic/manafcd5d3ab-d58e-5cea-861a-cb377f37bf83"/>
+    <rdfs:range rdf:resource="Magic/mana22cc2c35-c785-575c-b2d7-00477e7ec599"/>
+    <rdfs:range rdf:resource="Magic/manad51f34a4-ce62-5003-94ec-86cdddea2d1c"/>
+    <rdfs:range rdf:resource="Magic/manaada04e68-5bec-59bf-8474-7e87e82da1e8"/>
+    <owl:ObjectProperty rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/mana031a56f1-1554-5ad3-b889-afe198354b85"/>
+    <rdfs:range rdf:resource="Magic/manae2be2630-ada5-57c7-8612-0356dfa75ce5"/>
+    <rdfs:range rdf:resource="Magic/mana4107aaeb-a96c-54ce-8042-08aa27f1f72e"/>
+    <rdfs:range rdf:resource="Magic/manaf2d8870e-3ac7-550c-9f80-742b19735a38"/>
+    <rdfs:range rdf:resource="Magic/manadb6218d8-04ed-52c6-9ea9-2a3d763eaba1"/>
+    <rdfs:range rdf:resource="Magic/manafe4aa077-872f-58b2-bc37-80164f869895"/>
+    <rdfs:range rdf:resource="Magic/mana15d0f300-0989-5531-9eec-8a9b5320d822"/>
+    <rdfs:range rdf:resource="Magic/mana0c9b510b-6472-5339-bd6f-18cecc2e5482"/>
+    <rdfs:range rdf:resource="Magic/mana1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf"/>
+    <rdfs:range rdf:resource="Magic/mana3bac81ad-efc0-510f-a34e-5aa495f32bb8"/>
+    <rdfs:range rdf:resource="Magic/manafbfdbb8e-b391-5b89-9106-fa55b82828e4"/>
+    <rdfs:range rdf:resource="Magic/mana42b053db-3d18-5e1a-b4c8-c39233ad9afe"/>
+    <rdfs:range rdf:resource="Magic/manaf05509a3-b72c-5ceb-94e5-1f3c250db56b"/>
+    <rdfs:range rdf:resource="Magic/manabef2dc94-74fe-5ea1-936e-acf3c8e5e169"/>
+    <rdfs:range rdf:resource="Magic/manaaeee62f6-3f05-581b-8d27-03bf0c215c30"/>
+    <rdfs:range rdf:resource="Magic/mana5e472972-de49-5bf8-b39c-edfdf7851976"/>
+    <rdfs:range rdf:resource="Magic/mana2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73"/>
+    <rdfs:range rdf:resource="Magic/mana717d33e3-2344-519d-af37-3e216c46d3f4"/>
+    <rdfs:range rdf:resource="Magic/manac75ee39c-5afd-54c0-b2bf-be3d455373c2"/>
+    <rdfs:range rdf:resource="Magic/manaca1b29f4-9019-5ddc-95af-a5c900b67c58"/>
+    <rdfs:range rdf:resource="Magic/mana9d9ce25a-f48a-5b21-a672-8a08d42350e5"/>
+    <rdfs:range rdf:resource="Magic/mana908b390b-3047-518a-ad0b-bd06ff833676"/>
+    <rdfs:range rdf:resource="Magic/manaee19938c-4007-58f1-8904-fae28007b422"/>
+    <rdfs:range rdf:resource="Magic/manabadd0cd9-52ce-5c07-b404-160f6f5b0de0"/>
+    <rdfs:range rdf:resource="Magic/manadf15d202-901b-5a81-aa21-0e33f487838c"/>
+    <rdfs:range rdf:resource="Magic/manaa1901190-a766-5bf7-9dd7-9c1bdb0b4280"/>
+    <rdfs:range rdf:resource="Magic/mana84304c11-af1d-5cf1-9a19-b8c63def257a"/>
+    <rdfs:range rdf:resource="Magic/mana7b94dbd6-ea37-5c4d-aa19-697deacca4f4"/>
+    <rdfs:range rdf:resource="Magic/manace2e3ad5-e130-503f-b646-08371c1cfec0"/>
+    <rdfs:range rdf:resource="Magic/mana2854f284-974b-5842-8748-7c300e825b6c"/>
+    <rdfs:range rdf:resource="Magic/mana60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8"/>
+    <rdfs:range rdf:resource="Magic/mana228b69a1-ddae-575c-82d7-75912a6d1fe1"/>
+    <rdfs:range rdf:resource="Magic/manac0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9"/>
+    <rdfs:range rdf:resource="Magic/mana1f36fc8b-d32a-5683-9bfa-6f02f7fdba84"/>
+    <rdfs:range rdf:resource="Magic/mana53438513-19d4-5bf1-90df-90fcbddbb60d"/>
+    <rdfs:range rdf:resource="Magic/mana4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748"/>
+    <rdfs:range rdf:resource="Magic/manada832feb-02bb-5527-a7da-e149d7db9f1f"/>
+    <rdfs:range rdf:resource="Magic/manae5affb31-7153-5945-a062-f9c5b5c0014d"/>
+    <rdfs:range rdf:resource="Magic/mana6648a8ec-91a2-57fb-82c5-e705d467b2ea"/>
+    <rdfs:range rdf:resource="Magic/manaab49e18a-634e-55a4-8aff-8bdd4e5e4a57"/>
+    <rdfs:range rdf:resource="Magic/mana807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a"/>
+    <rdfs:range rdf:resource="Magic/manac5fdd729-0c3c-53b9-8741-d9023fca6dd7"/>
+    <rdfs:range rdf:resource="Magic/manab3bf8c54-da02-5028-b1ec-5485b4861e56"/>
+    <rdfs:range rdf:resource="Magic/mana1aa697f8-b8d9-548e-92d2-427640efc113"/>
+    <rdfs:range rdf:resource="Magic/manacd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e"/>
+    <rdfs:range rdf:resource="Magic/mana1669af17-d287-5094-b005-4b143441442f"/>
+    <rdfs:range rdf:resource="Magic/mana0498cd5a-75e9-5163-90e8-f8d15a97af59"/>
+    <rdfs:range rdf:resource="Magic/mana50eac642-2fda-5f35-a5fc-6f6e10c3ee85"/>
+    <rdfs:range rdf:resource="Magic/mana38571b6a-82fb-5e9d-bd90-37cf94ab67ea"/>
+    <rdfs:range rdf:resource="Magic/manaf9db3498-1b48-5877-8cef-d07c65c6cc20"/>
+    <rdfs:range rdf:resource="Magic/manade8ef420-862b-5b5c-a112-79c22cfdbceb"/>
+    <rdfs:range rdf:resource="Magic/mana522e6de3-4c31-5303-aba2-127c1e36a8d4"/>
+    <rdfs:range rdf:resource="Magic/manabaf4dd4c-bc49-5fa6-a119-ed59c0031be4"/>
+    <rdfs:range rdf:resource="Magic/manacff007ed-d371-5591-9228-a3280de53075"/>
+    <rdfs:range rdf:resource="Magic/manaaea807be-9b29-53fa-9665-b00b62d5dced"/>
+    <rdfs:range rdf:resource="Magic/manac5393c68-2c74-523c-93a7-f4bd53f46faa"/>
+    <rdfs:range rdf:resource="Magic/mana8774e18f-3752-5c06-af94-5da3960da9ed"/>
+    <rdfs:range rdf:resource="Magic/mana9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c"/>
+    <rdfs:range rdf:resource="Magic/manaad41be73-582f-58ed-abd4-a88c1f616ac3"/>
+    <rdfs:range rdf:resource="Magic/mana64271d17-5b04-59d6-9725-18f9630076f9"/>
+    <rdfs:range rdf:resource="Magic/mana11732051-8f6e-59f4-b08e-71d6bb16b1f2"/>
+    <rdfs:range rdf:resource="Magic/mana3637154c-6924-5072-bd32-36d1e32ee11a"/>
+    <rdfs:range rdf:resource="Magic/mana873ea568-3c77-59fd-8125-5da2de48f0d2"/>
+    <rdfs:range rdf:resource="Magic/mana4e875bca-0c52-5d60-889d-1db67e261737"/>
+    <rdfs:range rdf:resource="Magic/manacf706172-38d6-53dc-a493-1eb19f027a66"/>
+    <rdfs:range rdf:resource="Magic/manaa634f6df-fd74-54d9-a56c-3fdd2ad3e9bf"/>
+    <rdfs:range rdf:resource="Magic/mana1cc1e203-89d1-5d70-866d-48002aa268fa"/>
+    <rdfs:range rdf:resource="Magic/manad4a710b1-8a0b-5ca1-ae78-6833762be626"/>
+    <rdfs:range rdf:resource="Magic/mana20590ae1-d37c-5f8d-830b-575b493d2ee2"/>
+    <rdfs:range rdf:resource="Magic/manadf16eb18-b130-597d-b0b7-bdfdde32e86f"/>
+    <rdfs:range rdf:resource="Magic/mana15c434d4-a6a5-5567-a24f-42b0ab468e86"/>
+    <rdfs:range rdf:resource="Magic/mana8fb2ccd5-774d-5856-998e-6031e2a63c6a"/>
+    <rdfs:range rdf:resource="Magic/mana2c4149b0-6f3f-5117-9a96-ad217397572b"/>
+    <rdfs:range rdf:resource="Magic/mana047d5499-a21c-5f5c-9679-1599fcaf9815"/>
+    <rdfs:range rdf:resource="Magic/mana1c5f900e-982d-5c65-89fd-46dd4db76716"/>
+    <rdfs:domain rdf:resource="Magic/card"/>
+    <rdfs:range rdf:resource="Magic/mana4b6294e9-28db-5e4a-9d5d-4d4aeff037a3"/>
+    <rdfs:range rdf:resource="Magic/mana2bc85ce1-710d-54fc-a11a-7eaba757830b"/>
+    <rdfs:range rdf:resource="Magic/manab20b6ef2-c8f9-5810-9b7f-af4e7d207fe7"/>
+    <rdfs:range rdf:resource="Magic/mana7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273"/>
+    <rdfs:range rdf:resource="Magic/mana067159f1-c2be-5ed1-916b-e7645682c334"/>
+    <rdfs:range rdf:resource="Magic/manaa4624c81-a1de-565b-83f7-103af6b9ebde"/>
+    <rdfs:range rdf:resource="Magic/manaac0bc104-7986-5eb4-b6c9-375120468c17"/>
+    <rdfs:range rdf:resource="Magic/manaa62ac877-9bb2-51b3-80e8-5768a52d0aa4"/>
+    <rdfs:range rdf:resource="Magic/manabfbb65b1-f1bb-5355-9495-fb094f9b0782"/>
+    <rdfs:range rdf:resource="Magic/mana13fbd62d-8c76-52fa-a91d-a20cc34747ab"/>
+    <rdfs:range rdf:resource="Magic/manaa97410e8-c13c-562c-b296-73689d7007db"/>
+    <rdfs:range rdf:resource="Magic/mana9c137f5d-27db-59fc-9284-29cd0a9eba4f"/>
+    <rdfs:range rdf:resource="Magic/mana908534a1-b3cd-5fad-b716-9a0e4a6d1d5f"/>
+    <rdfs:range rdf:resource="Magic/manafd9bed0d-36da-5ae0-b9cd-6ce7c302056e"/>
+    <rdfs:range rdf:resource="Magic/mana7a81542e-9153-5416-84f0-a45d01e2935d"/>
+    <rdfs:range rdf:resource="Magic/mana8f6bfe34-f704-5ac8-a025-921a0276bb54"/>
+    <rdfs:range rdf:resource="Magic/mana43f8222f-3fd5-5491-9e76-5b1cc9a86e93"/>
+    <rdfs:range rdf:resource="Magic/manabac95ded-e0ed-55a9-881b-5787fb4d7e57"/>
+    <rdfs:range rdf:resource="Magic/manae0d8ae7a-f932-5b4b-b262-74ed78de4a7c"/>
+    <rdfs:range rdf:resource="Magic/manabb865095-2690-5bee-a1ee-fd7d127acf28"/>
+    <rdfs:range rdf:resource="Magic/manac462b4ea-8b7d-57f2-b014-f723165fcc6d"/>
+  </rdf:Description>
+  <owl:Class rdf:about="Magic/name38571b6a-82fb-5e9d-bd90-37cf94ab67ea">
+    <rdfs:label>Civic Wayfinder</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manae0d8ae7a-f932-5b4b-b262-74ed78de4a7c">
+    <rdfs:label>{1}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted2854f284-974b-5842-8748-7c300e825b6c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a">
+    <rdfs:label>Cloud Sprite</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana908b390b-3047-518a-ad0b-bd06ff833676">
+    <rdfs:label>{3}{R}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaf05509a3-b72c-5ceb-94e5-1f3c250db56b">
+    <rdfs:label>{2}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted7a81542e-9153-5416-84f0-a45d01e2935d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273">
+    <rdfs:label>{2}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manac462b4ea-8b7d-57f2-b014-f723165fcc6d">
+    <rdfs:label>{5}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameee19938c-4007-58f1-8904-fae28007b422">
+    <rdfs:label>Adarkar Wastes</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana15c434d4-a6a5-5567-a24f-42b0ab468e86">
+    <rdfs:label>{3}{R}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namedb6218d8-04ed-52c6-9ea9-2a3d763eaba1">
+    <rdfs:label>Ascendant Evincar</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted0c9b510b-6472-5339-bd6f-18cecc2e5482">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameada04e68-5bec-59bf-8474-7e87e82da1e8">
+    <rdfs:label>Craw Wurm</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1f36fc8b-d32a-5683-9bfa-6f02f7fdba84">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteda4624c81-a1de-565b-83f7-103af6b9ebde">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedf2d8870e-3ac7-550c-9f80-742b19735a38">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1669af17-d287-5094-b005-4b143441442f">
+    <rdfs:label>Abundance</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted4107aaeb-a96c-54ce-8042-08aa27f1f72e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaa4624c81-a1de-565b-83f7-103af6b9ebde">
+    <rdfs:label>{3}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabef2dc94-74fe-5ea1-936e-acf3c8e5e169">
+    <rdfs:label>{3}{W}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedd4a710b1-8a0b-5ca1-ae78-6833762be626">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana13fbd62d-8c76-52fa-a91d-a20cc34747ab">
+    <rdfs:label>{2}{B}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameb20b6ef2-c8f9-5810-9b7f-af4e7d207fe7">
+    <rdfs:label>Avatar of Might</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1669af17-d287-5094-b005-4b143441442f">
+    <rdfs:label>{2}{G}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebfbb65b1-f1bb-5355-9495-fb094f9b0782">
+    <rdfs:label>Ballista Squad</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana908534a1-b3cd-5fad-b716-9a0e4a6d1d5f">
+    <rdfs:label>{5}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabfbb65b1-f1bb-5355-9495-fb094f9b0782">
+    <rdfs:label>{3}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name43f8222f-3fd5-5491-9e76-5b1cc9a86e93">
+    <rdfs:label>Beacon of Immortality</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name13fbd62d-8c76-52fa-a91d-a20cc34747ab">
+    <rdfs:label>Agonizing Memories</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabb865095-2690-5bee-a1ee-fd7d127acf28">
+    <rdfs:label>{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedf05509a3-b72c-5ceb-94e5-1f3c250db56b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a">
+    <rdfs:label>{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted2bc85ce1-710d-54fc-a11a-7eaba757830b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaaeee62f6-3f05-581b-8d27-03bf0c215c30">
+    <rdfs:label>{1}{W}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteddf16eb18-b130-597d-b0b7-bdfdde32e86f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namefe4aa077-872f-58b2-bc37-80164f869895">
+    <rdfs:label>Anaba Bodyguard</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaab49e18a-634e-55a4-8aff-8bdd4e5e4a57">
+    <rdfs:label>{3}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf">
+    <rdfs:label>Composite Golem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted4e875bca-0c52-5d60-889d-1db67e261737">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namea4624c81-a1de-565b-83f7-103af6b9ebde">
+    <rdfs:label>Crucible of Worlds</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameca1b29f4-9019-5ddc-95af-a5c900b67c58">
+    <rdfs:label>Brushland</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manac75ee39c-5afd-54c0-b2bf-be3d455373c2">
+    <rdfs:label>{3}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedac0bc104-7986-5eb4-b6c9-375120468c17">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name2c4149b0-6f3f-5117-9a96-ad217397572b">
+    <rdfs:label>Bogardan Firefiend</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted067159f1-c2be-5ed1-916b-e7645682c334">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana0c9b510b-6472-5339-bd6f-18cecc2e5482">
+    <rdfs:label>{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1c5f900e-982d-5c65-89fd-46dd4db76716">
+    <rdfs:label>Benalish Knight</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manadf15d202-901b-5a81-aa21-0e33f487838c">
+    <rdfs:label>{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted15c434d4-a6a5-5567-a24f-42b0ab468e86">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana2854f284-974b-5842-8748-7c300e825b6c">
+    <rdfs:label>{3}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8">
+    <rdfs:label>{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted5e472972-de49-5bf8-b39c-edfdf7851976">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1f36fc8b-d32a-5683-9bfa-6f02f7fdba84">
+    <rdfs:label>{3}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manad51f34a4-ce62-5003-94ec-86cdddea2d1c">
+    <rdfs:label>{3}{B}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabadd0cd9-52ce-5c07-b404-160f6f5b0de0">
+    <rdfs:label>{2}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebef2dc94-74fe-5ea1-936e-acf3c8e5e169">
+    <rdfs:label>Angelic Chorus</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbfbb65b1-f1bb-5355-9495-fb094f9b0782">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name4e875bca-0c52-5d60-889d-1db67e261737">
+    <rdfs:label>Aggressive Urge</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana2c4149b0-6f3f-5117-9a96-ad217397572b">
+    <rdfs:label>{2}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaa62ac877-9bb2-51b3-80e8-5768a52d0aa4">
+    <rdfs:label>{9}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf">
+    <rdfs:label>{6}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namec5393c68-2c74-523c-93a7-f4bd53f46faa">
+    <rdfs:label>Contaminated Bond</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteda62ac877-9bb2-51b3-80e8-5768a52d0aa4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana067159f1-c2be-5ed1-916b-e7645682c334">
+    <rdfs:label>{3}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name64271d17-5b04-59d6-9725-18f9630076f9">
+    <rdfs:label>Bloodrock Cyclops</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted228b69a1-ddae-575c-82d7-75912a6d1fe1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana0498cd5a-75e9-5163-90e8-f8d15a97af59">
+    <rdfs:label>{6}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted8f6bfe34-f704-5ac8-a025-921a0276bb54">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedfbfdbb8e-b391-5b89-9106-fa55b82828e4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbb865095-2690-5bee-a1ee-fd7d127acf28">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted522e6de3-4c31-5303-aba2-127c1e36a8d4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1669af17-d287-5094-b005-4b143441442f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name5e472972-de49-5bf8-b39c-edfdf7851976">
+    <rdfs:label>Diabolic Tutor</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted42b053db-3d18-5e1a-b4c8-c39233ad9afe">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1a7fc131-31f8-51c4-8ca6-e7f7601dcfdf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name4b6294e9-28db-5e4a-9d5d-4d4aeff037a3">
+    <rdfs:label>Bog Wraith</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namec5fdd729-0c3c-53b9-8741-d9023fca6dd7">
+    <rdfs:label>Crafty Pathmage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted873ea568-3c77-59fd-8125-5da2de48f0d2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaee19938c-4007-58f1-8904-fae28007b422">
+    <rdfs:label>None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedb3bf8c54-da02-5028-b1ec-5485b4861e56">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebaf4dd4c-bc49-5fa6-a119-ed59c0031be4">
+    <rdfs:label>Assassinate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name84304c11-af1d-5cf1-9a19-b8c63def257a">
+    <rdfs:label>Arcane Teachings</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbef2dc94-74fe-5ea1-936e-acf3c8e5e169">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaf2d8870e-3ac7-550c-9f80-742b19735a38">
+    <rdfs:label>{4}{B}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedc5fdd729-0c3c-53b9-8741-d9023fca6dd7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manade8ef420-862b-5b5c-a112-79c22cfdbceb">
+    <rdfs:label>{1}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name9d9ce25a-f48a-5b21-a672-8a08d42350e5">
+    <rdfs:label>Air Elemental</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name0498cd5a-75e9-5163-90e8-f8d15a97af59">
+    <rdfs:label>Denizen of the Deep</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manafbfdbb8e-b391-5b89-9106-fa55b82828e4">
+    <rdfs:label>{2}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedc0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name522e6de3-4c31-5303-aba2-127c1e36a8d4">
+    <rdfs:label>Chimeric Staff</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted3637154c-6924-5072-bd32-36d1e32ee11a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana22cc2c35-c785-575c-b2d7-00477e7ec599">
+    <rdfs:label>{9}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaad41be73-582f-58ed-abd4-a88c1f616ac3">
+    <rdfs:label>{5}{W}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedda832feb-02bb-5527-a7da-e149d7db9f1f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c">
+    <rdfs:label>Angel of Mercy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana5e472972-de49-5bf8-b39c-edfdf7851976">
+    <rdfs:label>{2}{B}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana43f8222f-3fd5-5491-9e76-5b1cc9a86e93">
+    <rdfs:label>{5}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted047d5499-a21c-5f5c-9679-1599fcaf9815">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namee0d8ae7a-f932-5b4b-b262-74ed78de4a7c">
+    <rdfs:label>Contaminated Bond</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana6648a8ec-91a2-57fb-82c5-e705d467b2ea">
+    <rdfs:label>{1}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name4107aaeb-a96c-54ce-8042-08aa27f1f72e">
+    <rdfs:label>Cloud Elemental</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted7b94dbd6-ea37-5c4d-aa19-697deacca4f4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manafd9bed0d-36da-5ae0-b9cd-6ce7c302056e">
+    <rdfs:label>{2}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaada04e68-5bec-59bf-8474-7e87e82da1e8">
+    <rdfs:label>{4}{G}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name8774e18f-3752-5c06-af94-5da3960da9ed">
+    <rdfs:label>Afflict</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana047d5499-a21c-5f5c-9679-1599fcaf9815">
+    <rdfs:label>{1}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted031a56f1-1554-5ad3-b889-afe198354b85">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabaf4dd4c-bc49-5fa6-a119-ed59c0031be4">
+    <rdfs:label>{2}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namead41be73-582f-58ed-abd4-a88c1f616ac3">
+    <rdfs:label>Ancestor's Chosen</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manafe4aa077-872f-58b2-bc37-80164f869895">
+    <rdfs:label>{3}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebac95ded-e0ed-55a9-881b-5787fb4d7e57">
+    <rdfs:label>Coat of Arms</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namea62ac877-9bb2-51b3-80e8-5768a52d0aa4">
+    <rdfs:label>Colossus of Sardia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manac0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9">
+    <rdfs:label>{3}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedfe4aa077-872f-58b2-bc37-80164f869895">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namee2be2630-ada5-57c7-8612-0356dfa75ce5">
+    <rdfs:label>Angel of Mercy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manadf16eb18-b130-597d-b0b7-bdfdde32e86f">
+    <rdfs:label>{6}{G}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted0498cd5a-75e9-5163-90e8-f8d15a97af59">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name228b69a1-ddae-575c-82d7-75912a6d1fe1">
+    <rdfs:label>Dehydration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted807c3d5b-7fdc-5f9a-910d-20d6d1fbbe1a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameda832feb-02bb-5527-a7da-e149d7db9f1f">
+    <rdfs:label>Blaze</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name15d0f300-0989-5531-9eec-8a9b5320d822">
+    <rdfs:label>Deathmark</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namedf15d202-901b-5a81-aa21-0e33f487838c">
+    <rdfs:label>Birds of Paradise</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name22cc2c35-c785-575c-b2d7-00477e7ec599">
+    <rdfs:label>Colossus of Sardia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana15d0f300-0989-5531-9eec-8a9b5320d822">
+    <rdfs:label>{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namece2e3ad5-e130-503f-b646-08371c1cfec0">
+    <rdfs:label>Bloodfire Colossus</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namee5affb31-7153-5945-a062-f9c5b5c0014d">
+    <rdfs:label>Bottle Gnomes</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana64271d17-5b04-59d6-9725-18f9630076f9">
+    <rdfs:label>{2}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1cc1e203-89d1-5d70-866d-48002aa268fa">
+    <rdfs:label>Dehydration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name60d5ea8d-6c6c-5ed8-8b53-6d0c91e9f4c8">
+    <rdfs:label>Demystify</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana3637154c-6924-5072-bd32-36d1e32ee11a">
+    <rdfs:label>{1}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name2854f284-974b-5842-8748-7c300e825b6c">
+    <rdfs:label>Air Elemental</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name15c434d4-a6a5-5567-a24f-42b0ab468e86">
+    <rdfs:label>Cone of Flame</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748">
+    <rdfs:label>Aven Windreader</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted6648a8ec-91a2-57fb-82c5-e705d467b2ea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/named4a710b1-8a0b-5ca1-ae78-6833762be626">
+    <rdfs:label>Aura Graft</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbac95ded-e0ed-55a9-881b-5787fb4d7e57">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manad4a710b1-8a0b-5ca1-ae78-6833762be626">
+    <rdfs:label>{1}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameab49e18a-634e-55a4-8aff-8bdd4e5e4a57">
+    <rdfs:label>Aven Fisher</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1c5f900e-982d-5c65-89fd-46dd4db76716">
+    <rdfs:label>{2}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted717d33e3-2344-519d-af37-3e216c46d3f4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name9c137f5d-27db-59fc-9284-29cd0a9eba4f">
+    <rdfs:label>Battlefield Forge</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedcff007ed-d371-5591-9228-a3280de53075">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name7b94dbd6-ea37-5c4d-aa19-697deacca4f4">
+    <rdfs:label>Cruel Edict</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted53438513-19d4-5bf1-90df-90fcbddbb60d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manab3bf8c54-da02-5028-b1ec-5485b4861e56">
+    <rdfs:label>{2}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedfd9bed0d-36da-5ae0-b9cd-6ce7c302056e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name908b390b-3047-518a-ad0b-bd06ff833676">
+    <rdfs:label>Beacon of Destruction</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name908534a1-b3cd-5fad-b716-9a0e4a6d1d5f">
+    <rdfs:label>Coat of Arms</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted20590ae1-d37c-5f8d-830b-575b493d2ee2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1c5f900e-982d-5c65-89fd-46dd4db76716">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana031a56f1-1554-5ad3-b889-afe198354b85">
+    <rdfs:label>{1}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedd51f34a4-ce62-5003-94ec-86cdddea2d1c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameaeee62f6-3f05-581b-8d27-03bf0c215c30">
+    <rdfs:label>Aura of Silence</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaac0bc104-7986-5eb4-b6c9-375120468c17">
+    <rdfs:label>{2}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namea97410e8-c13c-562c-b296-73689d7007db">
+    <rdfs:label>Consume Spirit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted11732051-8f6e-59f4-b08e-71d6bb16b1f2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namefcd5d3ab-d58e-5cea-861a-cb377f37bf83">
+    <rdfs:label>Ancestor's Chosen</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana228b69a1-ddae-575c-82d7-75912a6d1fe1">
+    <rdfs:label>{3}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaa97410e8-c13c-562c-b296-73689d7007db">
+    <rdfs:label>{X}{1}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteddf15d202-901b-5a81-aa21-0e33f487838c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameaea807be-9b29-53fa-9665-b00b62d5dced">
+    <rdfs:label>Aven Fisher</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameac0bc104-7986-5eb4-b6c9-375120468c17">
+    <rdfs:label>Cloud Elemental</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted15d0f300-0989-5531-9eec-8a9b5320d822">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaca1b29f4-9019-5ddc-95af-a5c900b67c58">
+    <rdfs:label>None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name2bc85ce1-710d-54fc-a11a-7eaba757830b">
+    <rdfs:label>Commune with Nature</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted13fbd62d-8c76-52fa-a91d-a20cc34747ab">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted2c4149b0-6f3f-5117-9a96-ad217397572b">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manac5393c68-2c74-523c-93a7-f4bd53f46faa">
+    <rdfs:label>{1}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manacff007ed-d371-5591-9228-a3280de53075">
+    <rdfs:label>{1}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaa634f6df-fd74-54d9-a56c-3fdd2ad3e9bf">
+    <rdfs:label>{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana4b6294e9-28db-5e4a-9d5d-4d4aeff037a3">
+    <rdfs:label>{3}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana2bc85ce1-710d-54fc-a11a-7eaba757830b">
+    <rdfs:label>{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana4ab8c1bf-a3f4-5b65-9768-ca3c1a2e7748">
+    <rdfs:label>{3}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namecd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e">
+    <rdfs:label>Aven Windreader</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted38571b6a-82fb-5e9d-bd90-37cf94ab67ea">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana522e6de3-4c31-5303-aba2-127c1e36a8d4">
+    <rdfs:label>{4}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name3637154c-6924-5072-bd32-36d1e32ee11a">
+    <rdfs:label>Canopy Spider</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namefd9bed0d-36da-5ae0-b9cd-6ce7c302056e">
+    <rdfs:label>Blanchwood Armor</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted908534a1-b3cd-5fad-b716-9a0e4a6d1d5f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana9c137f5d-27db-59fc-9284-29cd0a9eba4f">
+    <rdfs:label>None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namecf706172-38d6-53dc-a493-1eb19f027a66">
+    <rdfs:label>Angel's Feather</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana7b94dbd6-ea37-5c4d-aa19-697deacca4f4">
+    <rdfs:label>{1}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namea1901190-a766-5bf7-9dd7-9c1bdb0b4280">
+    <rdfs:label>Demolish</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedfcd5d3ab-d58e-5cea-861a-cb377f37bf83">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manada832feb-02bb-5527-a7da-e149d7db9f1f">
+    <rdfs:label>{X}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name8f6bfe34-f704-5ac8-a025-921a0276bb54">
+    <rdfs:label>Cho-Manno, Revolutionary</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73">
+    <rdfs:label>{3}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana717d33e3-2344-519d-af37-3e216c46d3f4">
+    <rdfs:label>{1}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manafcd5d3ab-d58e-5cea-861a-cb377f37bf83">
+    <rdfs:label>{5}{W}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedaeee62f6-3f05-581b-8d27-03bf0c215c30">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted43f8222f-3fd5-5491-9e76-5b1cc9a86e93">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name11732051-8f6e-59f4-b08e-71d6bb16b1f2">
+    <rdfs:label>Caves of Koilos</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted4b6294e9-28db-5e4a-9d5d-4d4aeff037a3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedc5393c68-2c74-523c-93a7-f4bd53f46faa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted3bac81ad-efc0-510f-a34e-5aa495f32bb8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namef05509a3-b72c-5ceb-94e5-1f3c250db56b">
+    <rdfs:label>Blanchwood Armor</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted908b390b-3047-518a-ad0b-bd06ff833676">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedad41be73-582f-58ed-abd4-a88c1f616ac3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedaea807be-9b29-53fa-9665-b00b62d5dced">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/named51f34a4-ce62-5003-94ec-86cdddea2d1c">
+    <rdfs:label>Beacon of Unrest</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedce2e3ad5-e130-503f-b646-08371c1cfec0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1f36fc8b-d32a-5683-9bfa-6f02f7fdba84">
+    <rdfs:label>Bog Wraith</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertede5affb31-7153-5945-a062-f9c5b5c0014d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273">
+    <rdfs:label>Arcane Teachings</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedc462b4ea-8b7d-57f2-b014-f723165fcc6d">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namec75ee39c-5afd-54c0-b2bf-be3d455373c2">
+    <rdfs:label>Clone</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted9d9ce25a-f48a-5b21-a672-8a08d42350e5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana8f6bfe34-f704-5ac8-a025-921a0276bb54">
+    <rdfs:label>{2}{W}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manace2e3ad5-e130-503f-b646-08371c1cfec0">
+    <rdfs:label>{6}{R}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name42b053db-3d18-5e1a-b4c8-c39233ad9afe">
+    <rdfs:label>Condemn</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana50eac642-2fda-5f35-a5fc-6f6e10c3ee85">
+    <rdfs:label>{2}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name8fb2ccd5-774d-5856-998e-6031e2a63c6a">
+    <rdfs:label>Angelic Blessing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1cc1e203-89d1-5d70-866d-48002aa268fa">
+    <rdfs:label>{3}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedada04e68-5bec-59bf-8474-7e87e82da1e8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manae2be2630-ada5-57c7-8612-0356dfa75ce5">
+    <rdfs:label>{4}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaaea807be-9b29-53fa-9665-b00b62d5dced">
+    <rdfs:label>{3}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namec0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9">
+    <rdfs:label>Aven Cloudchaser</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/nameb3bf8c54-da02-5028-b1ec-5485b4861e56">
+    <rdfs:label>Deluge</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name7a81542e-9153-5416-84f0-a45d01e2935d">
+    <rdfs:label>Cloud Sprite</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted8774e18f-3752-5c06-af94-5da3960da9ed">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana20590ae1-d37c-5f8d-830b-575b493d2ee2">
+    <rdfs:label>{2}{G}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana7a81542e-9153-5416-84f0-a45d01e2935d">
+    <rdfs:label>{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana873ea568-3c77-59fd-8125-5da2de48f0d2">
+    <rdfs:label>{1}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana38571b6a-82fb-5e9d-bd90-37cf94ab67ea">
+    <rdfs:label>{2}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaf9db3498-1b48-5877-8cef-d07c65c6cc20">
+    <rdfs:label>{1}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namef9db3498-1b48-5877-8cef-d07c65c6cc20">
+    <rdfs:label>Ambassador Laquatus</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana4e875bca-0c52-5d60-889d-1db67e261737">
+    <rdfs:label>{1}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manab20b6ef2-c8f9-5810-9b7f-af4e7d207fe7">
+    <rdfs:label>{6}{G}{G}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted9c137f5d-27db-59fc-9284-29cd0a9eba4f">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted7ab77d62-5ec3-5a5a-9c7c-6ddc5281b273">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name717d33e3-2344-519d-af37-3e216c46d3f4">
+    <rdfs:label>Canopy Spider</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manadb6218d8-04ed-52c6-9ea9-2a3d763eaba1">
+    <rdfs:label>{4}{B}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name20590ae1-d37c-5f8d-830b-575b493d2ee2">
+    <rdfs:label>Creeping Mold</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name047d5499-a21c-5f5c-9679-1599fcaf9815">
+    <rdfs:label>Academy Researchers</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana8fb2ccd5-774d-5856-998e-6031e2a63c6a">
+    <rdfs:label>{2}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteda634f6df-fd74-54d9-a56c-3fdd2ad3e9bf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbadd0cd9-52ce-5c07-b404-160f6f5b0de0">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedcf706172-38d6-53dc-a493-1eb19f027a66">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manacf706172-38d6-53dc-a493-1eb19f027a66">
+    <rdfs:label>{2}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name3bac81ad-efc0-510f-a34e-5aa495f32bb8">
+    <rdfs:label>Arcanis the Omnipotent</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedbaf4dd4c-bc49-5fa6-a119-ed59c0031be4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedb20b6ef2-c8f9-5810-9b7f-af4e7d207fe7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manac5fdd729-0c3c-53b9-8741-d9023fca6dd7">
+    <rdfs:label>{2}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted64271d17-5b04-59d6-9725-18f9630076f9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteda1901190-a766-5bf7-9dd7-9c1bdb0b4280">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana1aa697f8-b8d9-548e-92d2-427640efc113">
+    <rdfs:label>{2}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebb865095-2690-5bee-a1ee-fd7d127acf28">
+    <rdfs:label>Boomerang</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name1aa697f8-b8d9-548e-92d2-427640efc113">
+    <rdfs:label>Counsel of the Soratami</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name50eac642-2fda-5f35-a5fc-6f6e10c3ee85">
+    <rdfs:label>Benalish Knight</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted8fb2ccd5-774d-5856-998e-6031e2a63c6a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana8774e18f-3752-5c06-af94-5da3960da9ed">
+    <rdfs:label>{2}{B}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana53438513-19d4-5bf1-90df-90fcbddbb60d">
+    <rdfs:label>{2}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name53438513-19d4-5bf1-90df-90fcbddbb60d">
+    <rdfs:label>Angelic Blessing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana9d9ce25a-f48a-5b21-a672-8a08d42350e5">
+    <rdfs:label>{3}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted50eac642-2fda-5f35-a5fc-6f6e10c3ee85">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1cc1e203-89d1-5d70-866d-48002aa268fa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manabac95ded-e0ed-55a9-881b-5787fb4d7e57">
+    <rdfs:label>{5}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana84304c11-af1d-5cf1-9a19-b8c63def257a">
+    <rdfs:label>{2}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/card"/>
+  <owl:Class rdf:about="Magic/mana42b053db-3d18-5e1a-b4c8-c39233ad9afe">
+    <rdfs:label>{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name031a56f1-1554-5ad3-b889-afe198354b85">
+    <rdfs:label>Cephalid Constable</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedab49e18a-634e-55a4-8aff-8bdd4e5e4a57">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name067159f1-c2be-5ed1-916b-e7645682c334">
+    <rdfs:label>Anaba Bodyguard</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedee19938c-4007-58f1-8904-fae28007b422">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedde8ef420-862b-5b5c-a112-79c22cfdbceb">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted1aa697f8-b8d9-548e-92d2-427640efc113">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name0c9b510b-6472-5339-bd6f-18cecc2e5482">
+    <rdfs:label>Birds of Paradise</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c">
+    <rdfs:label>{4}{W}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted84304c11-af1d-5cf1-9a19-b8c63def257a">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedf9db3498-1b48-5877-8cef-d07c65c6cc20">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name873ea568-3c77-59fd-8125-5da2de48f0d2">
+    <rdfs:label>Angelic Wall</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namec462b4ea-8b7d-57f2-b014-f723165fcc6d">
+    <rdfs:label>Citanul Flute</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertede2be2630-ada5-57c7-8612-0356dfa75ce5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manacd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e">
+    <rdfs:label>{3}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namecff007ed-d371-5591-9228-a3280de53075">
+    <rdfs:label>Angelic Wall</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedca1b29f4-9019-5ddc-95af-a5c900b67c58">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namefbfdbb8e-b391-5b89-9106-fa55b82828e4">
+    <rdfs:label>Cryoclasm</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namedf16eb18-b130-597d-b0b7-bdfdde32e86f">
+    <rdfs:label>Avatar of Might</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namede8ef420-862b-5b5c-a112-79c22cfdbceb">
+    <rdfs:label>Cancel</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namea634f6df-fd74-54d9-a56c-3fdd2ad3e9bf">
+    <rdfs:label>Bandage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manae5affb31-7153-5945-a062-f9c5b5c0014d">
+    <rdfs:label>{3}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana4107aaeb-a96c-54ce-8042-08aa27f1f72e">
+    <rdfs:label>{2}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana3bac81ad-efc0-510f-a34e-5aa495f32bb8">
+    <rdfs:label>{3}{U}{U}{U}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteda97410e8-c13c-562c-b296-73689d7007db">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namebadd0cd9-52ce-5c07-b404-160f6f5b0de0">
+    <rdfs:label>Demon's Horn</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaa1901190-a766-5bf7-9dd7-9c1bdb0b4280">
+    <rdfs:label>{3}{R}</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/mana11732051-8f6e-59f4-b08e-71d6bb16b1f2">
+    <rdfs:label>None</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name2dd39d0e-5e6f-5a74-978b-7ef67ffa8b73">
+    <rdfs:label>Aven Cloudchaser</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedcd4f2e38-bfbb-5172-99c0-aa0b9dfa6e9e">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverteddb6218d8-04ed-52c6-9ea9-2a3d763eaba1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/name6648a8ec-91a2-57fb-82c5-e705d467b2ea">
+    <rdfs:label>Chromatic Star</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConverted22cc2c35-c785-575c-b2d7-00477e7ec599">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertedc75ee39c-5afd-54c0-b2bf-be3d455373c2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/namef2d8870e-3ac7-550c-9f80-742b19735a38">
+    <rdfs:label>Ascendant Evincar</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="Magic/manaConvertede0d8ae7a-f932-5b4b-b262-74ed78de4a7c">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</rdfs:label>
+  </owl:Class>
 </rdf:RDF>
