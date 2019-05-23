@@ -1,5 +1,6 @@
 import dis
 import re
+import os
 
 from mtgsdk import Card
 from rdflib import Graph, BNode, Literal, URIRef
@@ -8,7 +9,7 @@ from rdflib.namespace import RDF, RDFS, OWL, DC, Namespace
 g = Graph()
 node = BNode()
 fileName = "magic"
-file_path_linux = "/home/victor_tassinari/PycharmProjects/MagicXml/"
+file_path_linux = os.environ.get("HOME")+"/Desktop/"
 
 
 def serialize_xml(file_format) -> None:
@@ -45,8 +46,14 @@ def build_card_class() -> None:
     att_getter()
     for att in att_list:
         print(att)
-        uri = URIRef(mtg.card + "/" + att.replace("'", ""))
+        att = att.replace("'", "")
+        if att == "multiverseid":
+            result = "multiverse_id"
+        else:
+            result = re.sub('([A-Z]{1})', r'_\1',att).lower()
+        uri = URIRef(mtg.card + "/" + result)
         g.add((uri, OWL.ObjeProperty, mtg.card))
+        g.add((uri,RDFS.domain,mtg.card))
     """
     g.add((mtg.manaCost, OWL.ObjectProperty, mtg.card))
     g.add((mtg.manaCost, RDFS.domain, mtg.card))
@@ -70,8 +77,11 @@ def fetch_cards(page_num, size) -> None:
     :return:
     """
     global cards
-    cards = Card.where(page=page_num).where(pageSize=size).all()
-
+    try:
+        cards = Card.where(page=page_num).where(pageSize=size).all()
+    except MtgException:
+        print("Serviço indisponivel.")
+    
 
 def build_file(file_format) -> None:
     """
@@ -86,13 +96,23 @@ def build_file(file_format) -> None:
     for card in cards:
         for att in att_list:
             att = att.replace("'", "")
-            uri = mtg.card + "/" + att
-            card_uri = mtg.card + "/" + att + card.id
+            if att == "multiverseid":
+                result = "multiverse_id"
+            else:
+                result = re.sub('([A-Z]{1})', r'_\1',att).lower()
+            #print(result)
+            uri = mtg.card + "/" + result
+            card_uri = mtg.card + "/" + result+ "/" + card.id
             card_property = URIRef(card_uri)
             uri_property = URIRef(uri)
-            g.add((card_property, RDF.type, OWL.Class))
-            g.add((card_property, RDFS.label, Literal(getattr(card, att))))
-            g.add((uri_property, RDFS.range, card_property))
+            if att == "id":
+                card_id = URIRef(mtg.card+"/id/"+card.id)
+                g.add((card_id,RDF.type,mtg.card))
+                g.add((card_id,RDFS.label,Literal("card")))
+            else:
+                g.add((card_property, RDF.type, OWL.Class))
+                g.add((card_property, RDFS.label, Literal(getattr(card, result))))
+                g.add((uri_property, RDFS.range, card_property))
             """card_uri = mtg.manaConverted + card.id
             card_property = URIRef(card_uri)
             g.add((card_property, RDF.type, OWL.Class))
@@ -104,7 +124,7 @@ def build_file(file_format) -> None:
             g.add((card_property, RDFS.label, Literal(card.name)))
             g.add((mtg.name, RDFS.range, card_property))
             """
-        print(getattr(card, "name"))
+        #print(getattr(card, "name"))
 
     serialize_xml(file_format)
 
